@@ -11,8 +11,8 @@ The National Institutes of Health (NIH) will soon introduce a [Data Management a
 
 The NIH policy has three main requirements, which correspond to different stages of a typical project lifecycle:
 
-1. When first applying for an NIH grant, you must [submit a Data Management Plan](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing) (DMP). 
-2. If the grant application is successful, you must implement the data management protocol specified in the DMP, and follow [data management best practices](https://sharing.nih.gov/data-management-and-sharing-policy/data-management) as you pursue your research.
+1. When first applying for an NIH grant, you must [submit a Data Management and Sharing Plan](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing) (DMS Plan). 
+2. If the grant application is successful, you must implement the data management protocol specified in the data management and sharing plan, and follow [data management best practices](https://sharing.nih.gov/data-management-and-sharing-policy/data-management) as you pursue your research.
 3. At the conclusion of your research, you must [deposit your research data in a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data), where other researchers can independently access and download the data. 
 
 The [Center for Research Data and Digital Scholarship](https://www.colorado.edu/crdds/), a collaboration between the University Libraries and Research Computing, offers services that can help you to fulfill all of these NIH DMSP requirements. 
@@ -20,9 +20,9 @@ The [Center for Research Data and Digital Scholarship](https://www.colorado.edu/
 This brief primer provides an overview of these services, along with references to helpful external resources:
 
 * It begins with a discussion of data management planning. 
-  * [Section 2][An Overview of Data Management Planning] provides an overview of data management plans.
-  * [Section 3][DMPTool] provides a brief tutorial on DMPTool (a software application that assists with the creation of DMPs)
-  * [Section 4][Sample DMPs] provides examples of previously used DMPs (which will look similar to the DMPs you will write for NIH). 
+  * [Section 2][An Overview of Data Management Planning] provides an overview of data management and sharing plans.
+  * [Section 3][DMPTool] provides a brief tutorial on *DMPTool* (a software application that assists with the creation of DMS plans)
+  * [Section 4][Sample DMS Plans] provides examples of previously used data management and sharing plans (which will look similar to the DMS plans you will write for NIH). 
 * [Section 5][Data Management for In-Progress Projects] provides a brief overview of services and resources that can help you to implement data management best practices once your project is underway. 
 * It then turns to a discussion of publishing and archiving. 
   * [Section 6][An overview of data publishing] provides an overview of data publishing
