@@ -186,7 +186,7 @@ The basic steps of the CU Scholar data submission workflow are as follows:
 
 1. Click the blue "Share Your Work" button on the [main CU Scholar page](https://scholar.colorado.edu).
 2. When prompted to select the type of work, select the "Data Set" option.
-3. You will be prompted to fill out several fields, and upload your data. Please also upload a Readme or documentation file that provides relevant metadata. You can access a Readme template under CU Scholar's [Data Set Policy](https://scholar.colorado.edu/terms) section. 
+3. You will be prompted to fill out several fields, and upload your data. Please also upload a Readme or documentation file that provides relevant metadata. You can access the suggested [Readme template for CU Scholar](https://drive.google.com/file/d/1h_iBgq3HY0yXyJXDwWpi80GMC2Z4fO9U/view) to plan ahead. 
 4. Once you have completed the submission, we will review it for adherence to [FAIR data principles](https://www.nature.com/articles/sdata201618). We may recommend changes to your submission based on this review.
 5. Once the submission has been finalized, we will register a digital object identifer (DOI) for the data, which can be used to uniquely identify the dataset, and provide proof of compliance with the NIH data publication requirement. 
 
@@ -270,7 +270,9 @@ The following resources and references were mentioned earlier; they are reprinte
 
 # Additional resources and further reading
 
-
+* This [Data Management and Sharing Plan Checklist](https://osf.io/awypt) based on the provisional NIH data management template, is a useful reference that you can use while writing your DMP.
+* As you navigate the NIH DMSP requirements, this [glossary of relevant terms](https://osf.io/p68s2) can come in handy. 
+* This [Guide to Social Science Data Preparation and Archiving](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) is written for a social science audience, but presents data management fundamentals that are of broader interest, and which are relevant to the NIH DMSP. 
 
 
 
