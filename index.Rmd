@@ -25,7 +25,7 @@ This brief primer provides an overview of these services, along with references 
   * [Section 4][Sample DMS Plans] provides examples of previously used data management and sharing plans (which will look similar to the DMS plans you will write for NIH). 
 * [Section 5][Data Management for In-Progress Projects] provides a brief overview of services and resources that can help you to implement data management best practices once your project is underway. 
 * It then turns to a discussion of publishing and archiving. 
-  * [Section 6][An overview of data publishing] provides an overview of data publishing
+  * [Section 6][An overview of data sharing] provides an overview of data publishing
   * [Section 7][Repository Services @ CU] focuses on repository services at CRDDS and the CU Boulder institutional repository (CU Scholar), where you have the option of archiving your project data. 
 * [Section 8][Concluding Thoughts] offers a summary of tools and resources mentioned in the primer, and provides links to additional resources that may be helpful. 
 

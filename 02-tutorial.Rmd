@@ -157,11 +157,11 @@ There are a variety of tools available that can help you to implement data manag
 
 CRDDS staff are available to consult on data management issues related to ongoing projects. We host consult hours on Tuesdays (12:00-1:00) and Thursdays (1:00-2:00), which you can sign up for on the [CRDDS Events Page](https://www.colorado.edu/crdds/events). You can also request a consultation outside of those hours by emailing [crdds@colorado.edu](mailto:crdds@colorado.edu). CRDDS regularly provides workshops and trainings related to data management (including workshops on some of the tools and best practices mentioned above), which you can also find on the CRDDS Events page. 
 
-# (PART) Data Publishing {-}
+# (PART) Data Sharing {-}
 
-# An overview of data publishing
+# An overview of data sharing
 
-The second explicit requirement associated with the new NIH DMSP (in addition to the data management and sharing plan requirement) is that you publish your project data in a publicly facing data repository. A data repository is essentially an archive that is designed to preserve research data beyond the life of a given project, so that other researchers can easily reuse and build on previous research and data collection efforts. More generally, data repositories have the goal of making research data [FAIR](https://www.nature.com/articles/sdata201618): **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable. 
+The second explicit requirement associated with the new NIH DMSP (in addition to the data management and sharing plan requirement) is that you share your project data by publishing it in a publicly facing data repository. A data repository is essentially an archive that is designed to preserve research data beyond the life of a given project, so that other researchers can easily reuse and build on previous research and data collection efforts. More generally, data repositories have the goal of making research data [FAIR](https://www.nature.com/articles/sdata201618): **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable. 
 
 There are many different kinds of data repositories within the broader repository ecosystem:
 

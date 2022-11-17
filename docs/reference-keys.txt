@@ -26,7 +26,7 @@ data-storage
 data-management-best-practices
 data-management-tools
 crdds-services
-an-overview-of-data-publishing
+an-overview-of-data-sharing
 repository-services-cu
 basic-cu-scholar-policies
 submitting-data-to-cu-scholar
