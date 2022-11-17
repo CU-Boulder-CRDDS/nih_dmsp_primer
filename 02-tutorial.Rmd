@@ -169,13 +169,11 @@ There are many different kinds of data repositories within the broader repositor
 * **Disciplinary repositories** accept deposits from researchers from designated discipline(s) or research communities, regardless of their institutional affiliation. An example of a disciplinary or community-based repository is the [Inter-university Consortium for Social and Political Research (ICPSR)](https://www.icpsr.umich.edu/web/pages/), which hosts data from social science researchers. 
 * **Institutional repositories** accept data deposits from researchers who are members of a specific institution, regardless of their discipline or area of research. An example of an institutional repository is [CU Scholar](https://scholar.colorado.edu), which is CU-Boulder's own institutional repository. 
 
-There is no "right" repository for you to archive your data; different repositories have different requirements, different levels of staff support, and different levels of visibility and prominence with various audiences and stakeholders. This [guide to selecting a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) from the NIH is a useful starting point for thinking about possible repository destinations for your research data. The NIH has also provided a [catalog of repositories](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html) that might give you some more specific ideas about repository options. 
-
-If you would like to talk through repository options in more detail, please also feel free to get in touch with CRDDS. 
+This [guide to selecting a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) from the NIH is a useful starting point for thinking about possible repository destinations for your research data. The NIH has also provided a [catalog of repositories](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html) that might give you some more specific ideas about repository options.
 
 # Repository Services @ CU
 
-In order to meet the NIH data sharing requirement, you have the option of depositing your data in CU Boulder's Institutional Repository, [CU Scholar](https://scholar.colorado.edu).
+In order to meet the NIH data sharing requirement, you will typically have the option of depositing your data in CU Boulder's Institutional Repository, [CU Scholar](https://scholar.colorado.edu) (for some grants, NIH may explicitly circumscribe your repository options, in which case you should follow their guidance). 
 
 ## Basic CU Scholar Policies
 
@@ -280,7 +278,7 @@ The resources below were not previously mentioned in the primer, but are worth c
 
 * This [Data Management and Sharing Plan Checklist](https://osf.io/awypt) based on the provisional NIH data management template, is a useful reference that you can use while writing your DMS Plan. 
 * As you navigate the NIH DMSP requirements, this [glossary of relevant terms](https://osf.io/p68s2) can come in handy. 
-* This [Guide to Social Science Data Preparation and Archiving](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) is written for a social science audience, but presents data management fundamentals that are of broader interest, and which are relevant to the NIH DMSP 
+* This [Guide to Social Science Data Preparation and Archiving](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) is written for a social science audience, but presents data management fundamentals that are of broader interest, and which are relevant to the NIH DMSP.  
 
 
 
