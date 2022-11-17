@@ -21,6 +21,7 @@ have-someone-review-the-draft-dmp
 revise-the-dmp
 submit-the-dmp
 sample-dmps
+data-management-for-in-progress-projects
 data-storage
 data-management-best-practices
 data-management-tools
