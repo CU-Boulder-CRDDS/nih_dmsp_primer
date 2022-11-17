@@ -21,7 +21,7 @@ This brief primer provides an overview of these services, along with references 
 
 * It begins with a discussion of data management planning. 
   * [Section 2][An Overview of Data Management Planning] provides an overview of data management and sharing plans.
-  * [Section 3][DMPTool] provides a brief tutorial on *DMPTool* (a software application that assists with the creation of DMS plans)
+  * [Section 3][Using *DMPTool*] provides a brief tutorial on *DMPTool* (a software application that assists with the creation of DMS plans)
   * [Section 4][Sample DMS Plans] provides examples of previously used data management and sharing plans (which will look similar to the DMS plans you will write for NIH). 
 * [Section 5][Data Management for In-Progress Projects] provides a brief overview of services and resources that can help you to implement data management best practices once your project is underway. 
 * It then turns to a discussion of publishing and archiving. 
