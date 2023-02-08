@@ -36,7 +36,7 @@ knitr::include_graphics("images/pic3.png")
 
 ## Create a new plan
 
-To initiate a new plan, click the blue **Create plan** button (see Figure 3.3), which will bring you to an interface like the one below (Figure 3.4). Here, you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMSP template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan". 
+To initiate a new plan, click the blue **Create plan** button (see Figure 3.3 above), which will bring you to an interface like the one below (Figure 3.4). Here, you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMSP template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan". 
 
 ```{r, echo=FALSE, fig.cap="Initiate a new plan"}
 knitr::include_graphics("images/pic4.png")
