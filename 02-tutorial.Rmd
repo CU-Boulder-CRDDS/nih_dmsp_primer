@@ -36,35 +36,34 @@ knitr::include_graphics("images/pic3.png")
 
 ## Create a new plan
 
-To initiate a new plan, click the blue **Create plan** button (see Figure 3.3), which will bring you to an interface like the one below. Here, you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMSP template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan". 
+To initiate a new plan, click the blue **Create plan** button (see Figure 3.3), which will bring you to an interface like the one below (Figure 3.4). Here, you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMSP template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan". 
 
 ```{r, echo=FALSE, fig.cap="Initiate a new plan"}
 knitr::include_graphics("images/pic4.png")
 ```
 
-
 ## Customize, Write, and Compile the Data Management and Sharing Plan
 
-At this point, we are on a page that looks something like the one below. Note the six tabs running along the top of the page. By systematically working through the various sections associated with these tabs, you will be able to generate a data management and sharing plan. Make sure to save your work on the sections as you go. Also, note the **Select Guidance**  section on the right. Make sure that both the **DMPTool** and **University of Colorado Boulder (CU Boulder)** buttons are selected. This ensures that as you work through the material within the **Write Plan** tab, you will be able to see relevant guidance on how to complete various sections of your DMS plan. In the first tab, **Project Details**, you can enter your project abstract and some additional information.
+At this point, we are on a page that looks something like the one below (Figure 3.5). Note the six tabs running along the top of the page. By systematically working through the various sections associated with these tabs, you will be able to generate a data management and sharing plan. Make sure to save your work on the sections as you go. Also, note the **Select Guidance**  section on the right. Make sure that both the **DMPTool** and **University of Colorado Boulder (CU Boulder)** buttons are selected. This ensures that as you work through the material within the **Write Plan** tab, you will be able to see relevant guidance on how to complete various sections of your DMS plan. In the first tab, **Project Details**, you can enter your project abstract and some additional information.
 
 
 ```{r, fig.cap="Environment to assemble plan", echo=FALSE}
 knitr::include_graphics("images/pic5.png")
 ```
 
-The second tab, **Collaborators**, will look like the image below; here, you can invite collaborators to participate in creating the DMS plan, and regulate their access to the in-progress document.
+The second tab, **Collaborators**, will look like the image below (Figure 3.6); here, you can invite collaborators to participate in creating the DMS plan, and regulate their access to the in-progress document.
 
 ```{r, echo=FALSE, fig.cap="Add collaborators"}
 knitr::include_graphics("images/pic6.png")
 ```
 
-Once you've invited collaborators (if relevant) and set their permissions, you can click the **Write Plan** tab, which will bring you to a page that looks like the one below. Each section on this page corresponds to a required section of the data management and sharing plan (these sections are based on the template that was chosen earlier). Click the **+** to expand a section and work on it, or click **expand all** to open all the sections at once. 
+Once you've invited collaborators (if relevant) and set their permissions, you can click the **Write Plan** tab, which will bring you to a page that looks like the one below (Figure 3.7). Each section on this page corresponds to a required section of the data management and sharing plan (these sections are based on the NIH DMS Plan template that is automatically loaded when you designate NIH as your funding agency). Click the **+** to expand a section and work on it, or click **expand all** to open all the sections at once. 
 
 ```{r, echo=FALSE, fig.cap="Write plan sections"}
 knitr::include_graphics("images/pic7.png")
 ```
 
-To take an example, let’s expand the **Data Preservation, Access, and Associated Timelines** section, which will look like the image below, once open. We can write (or paste) the text for this section into the text box, and click **Save** (note that it’s necessary to click **Save** after every plan section within the **Write Plan** tab is completed). On the right of the image below, you can view relevant information on a section or advice on how to complete it. To view this information, make sure that the **Guidance** button is selected (when selected, it will appear white). Once the **Guidance** button is selected, you'll see buttons corresponding to different sources. To see instructions from the funding agency (here, NIH) or *DMPTool* itself, click on those buttons. To see CU Boulder-specific information on completing a given section (i.e. information on CU-specific resources or tools that might be relevant to a given section), click the **CU Boulder** button. 
+To take an example, let’s expand the **Data Preservation, Access, and Associated Timelines** section, which will look like the image below (Figure 3.8), once open. We can write (or paste) the text for this section into the text box, and click **Save** (note that it’s necessary to click **Save** after you complete each plan section within the **Write Plan** tab). To the right of the text box, you can view relevant information on the chosen section or advice on how to complete it. To view this information, make sure that the **Guidance** button is selected (when selected, it will appear white). Once the **Guidance** button is selected, you'll see buttons corresponding to different sources. To see instructions from the funding agency (here, NIH) or *DMPTool* itself, click on those buttons. To see CU Boulder-specific information on completing a given section (i.e. information on CU-specific resources or tools that might be relevant to a given section), click the **CU Boulder** button. 
 
 
 ```{r, echo=FALSE, fig.cap="Completing an individual section within the 'Write Plan' tab"}
@@ -73,7 +72,7 @@ knitr::include_graphics("images/pic8.png")
 
 ## Download and Export the DMS Plan
 
-After completing the various sections of the data management and sharing plan within the **Write Plan** tab, and adding relevant information within the **Research outputs** tab, you can download your plan (which is compiled from the information that has been entered in the various sections of the **Write Plan** tab), within the **Download** tab. When open, the **Download** section will look something like the image below. Note that it is essential to ensure that the document you submit to the NIH adheres to all formatting requirements. The download specifications used below are consistent with these requirements, but please see this [document](https://research.columbia.edu/sites/default/files/content/EVPR/NIH%20Formatting%20Requirements%20and%20DMPTool.pdf) from Columbia University for more details on formatting. After customizing the plan according to the required formatting specifications, you can  click the **Download Plan** button, at which point the *DMPTool* software will generate a complete data management and sharing plan in the desired file format (in this case, PDF), based on the text that was entered in the various sections above.
+After completing the various sections of the data management and sharing plan within the **Write Plan** tab, and adding relevant information within the **Research outputs** tab, you can download your plan (which is compiled from the information that has been entered in the various sections of the **Write Plan** tab), within the **Download** tab. When open, the **Download** section will look something like the image below (Figure 3.9). Note that it is essential to ensure that the document you submit to the NIH adheres to all formatting requirements. The download specifications used below are consistent with these requirements, but please see this [document](https://research.columbia.edu/sites/default/files/content/EVPR/NIH%20Formatting%20Requirements%20and%20DMPTool.pdf) from Columbia University for more details on formatting. After customizing the plan according to the required formatting specifications, you can  click the **Download Plan** button, at which point the *DMPTool* software will generate a complete and formatted data management and sharing plan in the desired file format (in this case, PDF), based on the text that was entered in the various sections we discussed above. 
 
 ```{r, echo=FALSE, fig.cap="Download plan"}
 knitr::include_graphics("images/pic9.png")
@@ -85,7 +84,7 @@ After generating a draft data management and sharing plan using *DMPTool*, it is
 
 ## Revise the DMS Plan
 
-To implement suggested revisions and finalize your plan, you can access your in-progress plan (and its various sections) from your personal *DMPTool* dashboard. Simply click on the relevant project title, and *DMPTool* will take you back into that project's plan, where you implement necessary revisions to the relevant sections, and then re-export the revised DMS plan:
+To implement suggested revisions and finalize your plan, you can access your in-progress plan (and its various sections) from your personal *DMPTool* dashboard (see Figure 3.10 below). Simply click on the relevant project title, and *DMPTool* will take you back into that project's plan, where you implement necessary revisions to the relevant sections, and then re-export the revised DMS plan:
 
 ```{r, echo=FALSE, fig.cap="Access plan from dashboard to make revisions"}
 knitr::include_graphics("images/pic11.png")
@@ -95,7 +94,7 @@ Also, note that it's not necessary to complete the plan document in one session;
 
 ## Submit the DMS Plan
 
-While the specific submission process for the plan will depend on the NIH's instructions for your grant, it's useful to note that *DMPTool* provides useful options for publishing and registering your plan within the **Finalize** tab of your project (including the option to generate a plan ID and add the plan to ORCID):
+While the specific submission process for the plan will depend on the NIH's instructions for your grant, it's worth noting that *DMPTool* provides useful options for publishing and registering your plan within the **Finalize** tab of your project (including the option to generate a plan ID and add the plan to ORCID), as seen in Figure 3.11 below:
 
 ```{r, echo=FALSE, fig.cap="Options to publish and/or register your plan  "}
 knitr::include_graphics("images/pic12.png")
