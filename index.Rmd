@@ -7,7 +7,7 @@ site: bookdown::bookdown_site
 
 # Introduction
 
-The National Institutes of Health (NIH) will soon introduce a [Data Management and Sharing Policy (DMSP)](https://sharing.nih.gov/data-management-and-sharing-policy), which goes into effect on January 25th, 2023. This brief primer provides an overview of some useful resources that will help you to implement some of this policy's main requirements for projects that receive NIH funding.  
+The National Institutes of Health (NIH) has introduced a [Data Management and Sharing Policy (DMSP)](https://sharing.nih.gov/data-management-and-sharing-policy), which is now in effect. This brief primer provides an overview of some useful resources that will help you to implement some of this policy's main requirements for projects that receive NIH funding.  
 
 The NIH policy has three main requirements, which correspond to different stages of a typical project lifecycle:
 
@@ -15,18 +15,18 @@ The NIH policy has three main requirements, which correspond to different stages
 2. If the grant application is successful, you must implement the data management protocol specified in the data management and sharing plan, and follow [data management best practices](https://sharing.nih.gov/data-management-and-sharing-policy/data-management) as you pursue your research.
 3. At the conclusion of your research, you must [deposit your research data in a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data), where other researchers can independently access and download the data. 
 
-The [Center for Research Data and Digital Scholarship](https://www.colorado.edu/crdds/), a collaboration between the University Libraries and Research Computing, offers services that can help you to fulfill all of these NIH DMSP requirements. 
+The [Center for Research Data and Digital Scholarship](https://www.colorado.edu/crdds/), a collaboration between the University Libraries and Research Computing, offers services that can help you to fulfill all of these NIH DMS Plan requirements. 
 
 This brief primer provides an overview of these services, along with references to helpful external resources:
 
 * It begins with a discussion of data management planning. 
   * [Section 2][An Overview of Data Management Planning] provides an overview of data management and sharing plans.
-  * [Section 3][Using *DMPTool*] provides a brief tutorial on *DMPTool* (a software application that assists with the creation of DMS plans)
+  * [Section 3][Using *DMPTool*] provides a brief tutorial on *DMPTool* (a software application that can assist with the creation of NIH DMS Plans)
   * [Section 4][Sample DMS Plans] provides examples of previously used data management and sharing plans (which will look similar to the DMS plans you will write for NIH). 
 * [Section 5][Data Management for In-Progress Projects] provides a brief overview of services and resources that can help you to implement data management best practices once your project is underway. 
 * It then turns to a discussion of publishing and archiving. 
-  * [Section 6][An overview of data sharing] provides an overview of data publishing
-  * [Section 7][Repository Services @ CU] focuses on repository services at CRDDS and the CU Boulder institutional repository (CU Scholar), where you have the option of archiving your project data. 
+  * [Section 6][An overview of data sharing] provides an overview of data publishing and archiving. 
+  * [Section 7][Repository Services @ CU] focuses on repository services at CRDDS and the CU Boulder institutional repository (CU Scholar), where you have the option of archiving your project data in accordance with NIH requirements. . 
 * [Section 8][Concluding Thoughts] offers a summary of tools and resources mentioned in the primer, and provides links to additional resources that may be helpful. 
 
 
