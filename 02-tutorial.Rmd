@@ -8,7 +8,7 @@ Data management and sharing plans are therefore increasingly required by funding
 
 You can access the template for the NIH data management and sharing plan on this [NIH website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan). This page also contains a number of useful sample plans that use the NIH DMS Plan template. If you are familiar with NSF data management plans, you'll notice that the NIH  DMS Plan template is quite similar (though not identical). T
 
-If you are planning to apply for an NIH grant, the easiest way to generate an appropriate data management and sharing plan that conforms to NIH requirements is to use an application called [*DMPTool*](https://dmptool.org/). [*DMPTool*](https://dmptool.org/) is a digital platform that provides structured assistance to researchers that would like to craft data management plans. *DMPTool* provides data management plan templates for a variety of major funders, including the NIH. It also allows you to view sample plans that have been completed in the past. A particularly helpful feature of *DMPTool* is that it allows for easy collaboration among project teams, including among project teams that are dispersed across multiple institutions.
+If you are planning to apply for an NIH grant, the easiest way to generate an appropriate data management and sharing plan that conforms to NIH requirements is to use an application called [*DMPTool*](https://dmptool.org/), which is a digital platform that provides structured assistance to researchers that would like to craft data management plans. *DMPTool* provides data management plan templates for a variety of major funders, including the NIH. It also allows you to view sample plans that have been completed in the past. A particularly helpful feature of *DMPTool* is that it allows for easy collaboration among project teams, including among project teams that are dispersed across multiple institutions.
 
 Below, Section 3 walks you through the main steps involved in creating a Data Management and Sharing Plan for your NIH grant applications using *DMPTool*.
 
@@ -28,7 +28,7 @@ Then, select University of Colorado, Boulder; once you click **Go**, you will be
 knitr::include_graphics("images/pic2.png")
 ```
 
-This will bring you to your personal *DMPTool* Dashboard. Here, you can begin a new plan; resume working on a saved plan (in-progress plans will show up under the **My Dashboard** sign if they exist); or view sample plans created by other CU researchers (under the banner that reads **University of Colorado Boulder Plans**)
+This will bring you to your personal *DMPTool* Dashboard. Here, you can begin a new plan; resume working on a saved plan (in-progress plans will show up under the **My Dashboard** sign if they exist); or view sample plans created by other CU researchers for a variety of funding agencies (under the banner that reads **University of Colorado Boulder Plans**)
 
 ```{r, echo=FALSE, fig.cap="Your personal DMPTool dashboard"}
 knitr::include_graphics("images/pic3.png")
@@ -36,7 +36,7 @@ knitr::include_graphics("images/pic3.png")
 
 ## Create a new plan
 
-To initiate a new plan, click the blue **Create plan** button (see Figure 3.3 above), which will bring you to an interface like the one below (Figure 3.4). Here, you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMSP template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan". 
+To initiate a new plan, click the blue **Create plan** button (see Figure 3.3 above), which will bring you to an interface like the one below (Figure 3.4). Here, you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMS Plan template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan". 
 
 ```{r, echo=FALSE, fig.cap="Initiate a new plan"}
 knitr::include_graphics("images/pic4.png")
@@ -44,26 +44,26 @@ knitr::include_graphics("images/pic4.png")
 
 ## Customize, Write, and Compile the Data Management and Sharing Plan
 
-At this point, we are on a page that looks something like the one below (Figure 3.5). Note the six tabs running along the top of the page. By systematically working through the various sections associated with these tabs, you will be able to generate a data management and sharing plan. Make sure to save your work on the sections as you go. Also, note the **Select Guidance**  section on the right. Make sure that both the **DMPTool** and **University of Colorado Boulder (CU Boulder)** buttons are selected. This ensures that as you work through the material within the **Write Plan** tab, you will be able to see relevant guidance on how to complete various sections of your DMS plan. In the first tab, **Project Details**, you can enter your project abstract and some additional information.
+At this point, we are on a page that looks something like the one below (Figure 3.5). Note the six tabs running along the top of the page. By systematically working through the various sections associated with these tabs, you will be able to generate a Data Management and Sharing Plan based on the NIH template. Make sure to save your work on the sections as you go. Also, note the **Select Guidance**  section on the right. Make sure that both the **DMPTool** and **University of Colorado Boulder (CU Boulder)** buttons are selected. This ensures that as you work through the material within the **Write Plan** tab, you will be able to see relevant guidance on how to complete various sections of your DMS Plan. In the first tab, **Project Details**, you can enter your project abstract and some additional information.
 
 
 ```{r, fig.cap="Environment to assemble plan", echo=FALSE}
 knitr::include_graphics("images/pic5.png")
 ```
 
-The second tab, **Collaborators**, will look like the image below (Figure 3.6); here, you can invite collaborators to participate in creating the DMS plan, and regulate their access to the in-progress document.
+The second tab, **Collaborators**, will look like the image below (Figure 3.6); here, you can invite collaborators to participate in creating the DMS Plan, and regulate their access to the in-progress document.
 
 ```{r, echo=FALSE, fig.cap="Add collaborators"}
 knitr::include_graphics("images/pic6.png")
 ```
 
-Once you've invited collaborators (if relevant) and set their permissions, you can click the **Write Plan** tab, which will bring you to a page that looks like the one below (Figure 3.7). Each section on this page corresponds to a required section of the data management and sharing plan (these sections are based on the NIH DMS Plan template that is automatically loaded when you designate NIH as your funding agency). Click the **+** to expand a section and work on it, or click **expand all** to open all the sections at once. 
+Once you've invited collaborators (if relevant) and set their permissions, you can click the **Write Plan** tab, which will bring you to a page that looks like the one below (Figure 3.7). Each section on this page corresponds to a required section of the NIH Data Management and Sharing Plan. Click the **+** to expand a section and work on it, or click **expand all** to open all the sections at once. 
 
 ```{r, echo=FALSE, fig.cap="Write plan sections"}
 knitr::include_graphics("images/pic7.png")
 ```
 
-To take an example, let’s expand the **Data Preservation, Access, and Associated Timelines** section, which will look like the image below (Figure 3.8), once open. We can write (or paste) the text for this section into the text box, and click **Save** (note that it’s necessary to click **Save** after you complete each plan section within the **Write Plan** tab). To the right of the text box, you can view relevant information on the chosen section or advice on how to complete it. To view this information, make sure that the **Guidance** button is selected (when selected, it will appear white). Once the **Guidance** button is selected, you'll see buttons corresponding to different sources. To see instructions from the funding agency (here, NIH) or *DMPTool* itself, click on those buttons. To see CU Boulder-specific information on completing a given section (i.e. information on CU-specific resources or tools that might be relevant to a given section), click the **CU Boulder** button. 
+To take an example, let’s expand the **Data Preservation, Access, and Associated Timelines** section, which will look like the image below (Figure 3.8), once it is open. We can write (or paste) the text for this section into the text box, and click **Save** (note that it’s necessary to click **Save** after you complete each plan section within the **Write Plan** tab). To the right of the text box, you can view relevant information on the chosen section or advice on how to complete it. To view this information, make sure that the **Guidance** button is selected (when selected, it will appear white). Once the **Guidance** button is selected, you'll see buttons corresponding to different sources. To see instructions from the funding agency (here, NIH) or *DMPTool* itself, click on those buttons. To see CU Boulder-specific information on completing a given section (i.e. information on CU-specific resources or tools that might be relevant to a given section), click the **CU Boulder** button. 
 
 
 ```{r, echo=FALSE, fig.cap="Completing an individual section within the 'Write Plan' tab"}
@@ -80,11 +80,11 @@ knitr::include_graphics("images/pic9.png")
 
 ## Have someone review the draft DMS Plan 
 
-After generating a draft data management and sharing plan using *DMPTool*, it is often useful to have someone review and offer feedback on your draft. In particular, we encourage CU researchers to reach out to us at the [Center for Research Data and Digital Scholarship](https://www.colorado.edu/crdds/); we are able to review data management and sharing plans, and offer advice on possible revisions before you submit the plan to the NIH. To set up an appointment with a data management specialist at CRDDS, please send an email to [crdds@colorado.edu](mailto:crdds@colorado.edu). 
+After generating a draft Data Management and Sharing Plan using *DMPTool*, it is often useful to have someone review and offer feedback on your draft. In particular, we encourage CU researchers to reach out to us at the [Center for Research Data and Digital Scholarship](https://www.colorado.edu/crdds/); we are able to review DMS Plans, and offer advice on possible revisions before you submit the plan to the NIH. To set up an appointment with a data management specialist at CRDDS, please send an email to [crdds@colorado.edu](mailto:crdds@colorado.edu). 
 
 ## Revise the DMS Plan
 
-To implement suggested revisions and finalize your plan, you can access your in-progress plan (and its various sections) from your personal *DMPTool* dashboard (see Figure 3.10 below). Simply click on the relevant project title, and *DMPTool* will take you back into that project's plan, where you implement necessary revisions to the relevant sections, and then re-export the revised DMS plan:
+When you are ready to implement revisions and finalize your plan, you can access your in-progress plan (and its various sections) from your personal *DMPTool* dashboard (see Figure 3.10 below). Simply click on the relevant project title, and *DMPTool* will take you back into that project's plan, where you can implement necessary revisions to the relevant sections, and then re-export the revised DMS plan:
 
 ```{r, echo=FALSE, fig.cap="Access plan from dashboard to make revisions"}
 knitr::include_graphics("images/pic11.png")
@@ -94,7 +94,7 @@ Also, note that it's not necessary to complete the plan document in one session;
 
 ## Submit the DMS Plan
 
-While the specific submission process for the plan will depend on the NIH's instructions for your grant, it's worth noting that *DMPTool* provides useful options for publishing and registering your plan within the **Finalize** tab of your project (including the option to generate a plan ID and add the plan to ORCID), as seen in Figure 3.11 below:
+While the specific submission process for the plan will depend on the NIH's instructions for your particular grant, it's worth noting that *DMPTool* provides useful options for publishing and registering your plan within the **Finalize** tab of your project (including the option to generate a plan ID and add the plan to ORCID), as seen in Figure 3.11 below:
 
 ```{r, echo=FALSE, fig.cap="Options to publish and/or register your plan  "}
 knitr::include_graphics("images/pic12.png")
@@ -102,9 +102,9 @@ knitr::include_graphics("images/pic12.png")
 
 # Sample DMS Plans
 
-As noted above, *DMPTool* provides a catalog of data management and sharing plans written and used by researchers as part of their previous grant applications. If you would like to see more such examples, this [searchable archive of previously used plans](https://example-dms-plans.github.io/examples/) is worth exploring. Another useful resource is this [annotated example of a DMS plan in the provisional NIH 2023 format](https://osf.io/euaty), which has been released by the [NIH DMSP Guidance Working Group](https://osf.io/uadxr/). 
+As noted above, *DMPTool* provides a catalog of data management and sharing plans written and used by researchers as part of their previous grant applications. If you would like to see more such examples, this [searchable archive of previously used plans](https://example-dms-plans.github.io/examples/) is worth exploring. Another useful resource is this [annotated example of a DMS plan](https://osf.io/euaty), which has been released by the [NIH DMSP Guidance Working Group](https://osf.io/uadxr/). As we noted above, the NIH [DMS Plan website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan) also contains a number of sample plans for a variety of different data types that are frequently used in NIH projects. 
 
-Perusing previously-submitted plans will give you a sense for the level of detail that reviewers expect in these documents. 
+Perusing these sample plans will give you a sense for the level of detail that reviewers expect in these documents. 
 
 # (PART) Implementation {-}
 
@@ -114,11 +114,11 @@ Once you are awarded an NIH grant, you must implement the data management protoc
 
 ## Data Storage
 
-In your data management and sharing plan, you should expect to discuss where and how research data will be stored while your project is ongoing (data storage during an active project is distinct from data archiving for long-term preservation and reuse, which you should also discuss in your plan; for more on fulfilling this requirement, see Sections 6 and 7 below). Once the project is actually underway, you will need to store data using the active storage plan presented in your DMS plan. 
+In your data management and sharing plan, you should expect to discuss where and how research data will be stored while your project is ongoing (data storage during an active project is distinct from data archiving for long-term preservation and reuse, which you should also discuss in your plan; for more on fulfilling this requirement, see Sections 6 and 7 below). Once the project is actually underway, you will need to store data using the active storage plan presented in your DMS Plan. 
 
 OIT has put together a [helpful guide to data storage options at CU Boulder](https://oit.colorado.edu/services/file-transfer-storage-infrastructure):  
 
-* In most cases, especially if your research data is expected to be less than one Terabyte, OneDrive is probably the best storage solution for research data. OneDrive has been approved for the storage of highly confidential data, and is considered a secure storage environment. 
+* In most cases, especially if your research data is expected to be less than one Terabyte, OneDrive is probably the best storage option for research data. OneDrive has been approved by OIT for the storage of highly confidential data, and is considered a secure storage environment. 
 * If you are working in the realm of "big data", and need more than one terabyte of storage space, the CU Boulder [PetaLibrary](https://www.colorado.edu/rc/resources/petalibrary) is an option that is worth exploring. While you can store data >1 terabyte on the PetaLibrary, note that unlike OneDrive, storing your data in the PetaLibrary involves an out-of-pocket cost ($45/terabyte/year), and is not approved for the storage of sensitive or highly confidential data.
 * If you need a secure way to transfer large amounts of data between project team members, CU Boulder's free [Large File Transfer Service](https://oit.colorado.edu/services/file-transfer-storage-infrastructure/large-file-transfer) is a useful resource. 
 
@@ -129,13 +129,13 @@ A general principle of data storage and security to keep in mind is the ["3-2-1"
 The NIH has assembled an extremely useful guide to [data management best practices for active projects](https://sharing.nih.gov/data-management-and-sharing-policy/data-management). Two topics mentioned in that guide are worth emphasizing:
 
 * **Documentation and Metadata**: Documenting your data workflows as you carry out your research will make it easier to prepare your data for long-term archiving at the end of your project. For guidance on best practices for data documentation and metadata, this document (from MIT) is a good place to start: [https://libraries.mit.edu/data-management/store/documentation](https://libraries.mit.edu/data-management/store/documentation/). Cornell University Libraries' brief [primer on standards-based metadata](https://data.research.cornell.edu/content/writing-metadata) is also helpful. When you deposit your data in a repository for long term preservation, it is usually a minimal requirement that you at least provide ["readme" style metadata](https://data.research.cornell.edu/content/readme). We recommend that you review the sort of information that is typically presented in a data readme file, and document your ongoing work with a view towards creating such a metadata file at the conclusion of your project. 
-* **File management**: Data files and directories can quickly proliferate over the course of a project, and it’s important to have a framework in place that regulates how files and directories are named, organized, and versioned. For a useful primer on file naming and organization conventions, see this resource from the University of Wisconsin: https://researchdata.wisc.edu/file-naming-and-versioning/.  
+* **File management**: Data files and directories can quickly proliferate over the course of a project, and it’s important to have a framework in place that regulates how files and directories are named, organized, and versioned. For a useful primer on file naming and organization conventions, see this [resource from the University of Wisconsin](https://researchdata.wisc.edu/file-naming-and-versioning/).  
 
 ## Data Management Tools
 
-There are a variety of tools available that can help you to implement data management best practices. There are too many to catalog here, but a few are worth highlighting:
+There are a variety of tools that can help you to implement data management best practices. There are too many to catalog here, but a few are worth highlighting:
 
-* **The Unix Shell/Command Line**: When creating, naming, deleting, or moving around files and directories, it is easier to keep track of everything if you implement these tasks programmatically (rather than pointing and clicking in a graphical user interface). The Unix Shell is a basic scripting tool that allows you to automate these aspects of file management relatively easily: this makes file management quicker, less error-prone, and easier to document. For an excellent tutorial on using the Unix shell for file management, see this lesson from the [Carpentries](https://carpentries.org) program: [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/).
+* **The Unix Shell/Command Line**: When creating, naming, deleting, or moving around files and directories, it is easier to keep track of everything if you implement these tasks programmatically (rather than pointing and clicking in a graphical user interface). The Unix Shell is a basic scripting tool that allows you to automate these aspects of file management relatively easily; this makes file management quicker, less error-prone, and easier to document. For an excellent tutorial on using the Unix shell for file management, see this lesson from the [Carpentries](https://carpentries.org) program: [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/).
 * **Git and GitHub**: Version control is an important part of data management that refers to your approach to tracking changes made to files containing data and code over time. Git is a version control system widely used in the open-source software and academic research communities. GitHub is a platform for hosting projects and source code that is based on Git; it’s a great way to implement versioning in a collaborative project. GitHub is a particularly useful way to store and keep track of changes in the code and scripts you use to process your data. Ultimately, these scripts can also be submitted alongside your datasets for long-term preservation in data repositories. To get started with Git and GitHub, this lesson is a good place to start: [https://swcarpentry.github.io/git-novice/](https://swcarpentry.github.io/git-novice/).
 * **Open Science Framework**: The [Open Science Framework (OSF)](https://osf.io) is designed to be a one-stop shop for all of your data and project management needs. It integrates various data storage, analysis, versioning, and management applications into one unified platform. 
 
@@ -147,7 +147,7 @@ CRDDS staff are available to consult on data management issues related to ongoin
 
 # An overview of data sharing
 
-The second explicit requirement associated with the new NIH DMSP (in addition to the data management and sharing plan requirement) is that you share your project data by publishing it in a publicly facing data repository. A data repository is essentially an archive that is designed to preserve research data beyond the life of a given project, so that other researchers can easily reuse and build on previous research and data collection efforts. More generally, data repositories have the goal of making research data [FAIR](https://www.nature.com/articles/sdata201618): **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable. 
+The second explicit requirement associated with the new NIH DMS P (in addition to the data management and sharing plan requirement) is that you share your project data by publishing it in a publicly facing data repository. A data repository is essentially an archive that is designed to preserve research data beyond the life of a given project, so that other researchers can easily reuse and build on previous research and data collection efforts. More generally, data repositories have the goal of making research data [FAIR](https://www.nature.com/articles/sdata201618): **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable. Note that hosting your data on a personal website is not considered an acceptable alternative to publishing data in a public-facing repository. 
 
 There are many different kinds of data repositories within the broader repository ecosystem:
 
@@ -203,7 +203,7 @@ An alternative to anonymization is to deposit your data with a repository that h
 
 # Concluding Thoughts 
 
-The goal of this primer was to provide a concise overview of practical resources that can help you to implement the NIH's new DMSP. If you would like to discuss your needs in greater detail, please don't hesitate to reach out to CRDDS. 
+The goal of this primer was to provide a concise overview of practical resources that can help you to implement the NIH's new Data Management and Sharing Plan If you would like to discuss your needs in greater detail, please don't hesitate to reach out to CRDDS. 
 
 ## References
 
@@ -262,10 +262,9 @@ The following resources and references were mentioned earlier; they are reprinte
 
 The resources below were not previously mentioned in the primer, but are worth consulting if you are looking for additional guidance or context. 
 
-* This [Data Management and Sharing Plan Checklist](https://osf.io/awypt) based on the provisional NIH data management template, is a useful reference that you can use while writing your DMS Plan. 
-* As you navigate the NIH DMSP requirements, this [glossary of relevant terms](https://osf.io/p68s2) can come in handy. 
-* This [Guide to Social Science Data Preparation and Archiving](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) is written for a social science audience, but presents data management fundamentals that are of broader interest, and which are relevant to the NIH DMSP.  
-
+* This [Data Management and Sharing Plan Checklist](https://osf.io/awypt) based on the  NIH Data Management and Sharing Plan template, is a useful reference that you can use while writing your DMS Plan. 
+* As you navigate the NIH DMS Plan requirements, this [glossary of relevant terms](https://osf.io/p68s2) can come in handy. 
+* This [Guide to Social Science Data Preparation and Archiving](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) is written for a social science audience, but presents data management fundamentals that are of broader interest, and which are relevant to the NIH data requirements. 
 
 
 
