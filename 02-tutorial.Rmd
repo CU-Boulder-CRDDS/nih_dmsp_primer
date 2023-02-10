@@ -4,7 +4,7 @@
 
 A Data Management and Sharing Plan (DMS Plan) is a short document (~2 pages) that describes your plans for collecting, organizing, storing, and eventually disseminating the data that underlies your published research. Writing a DMS Plan gives you the opportunity to develop a framework for organizing and managing your research data over the lifecycle of the project, and think through various data-related issues that might arise; committing to a plan in writing will help you to approach data management in a deliberate and intentional way, rather than figuring things out as you go in an ad-hoc fashion. Ultimately, this increases the likelihood that research data products will be reusable and reproducible. 
 
-Data Mannagement and Sharing Plans are therefore increasingly required by funding agencies as a part of grant applications, and have been a requirement for NSF grant applications for some time now. One of the key features of the NIH's new Data Management and Sharing Policy is that a Data Management and Sharing Policy will now be a requirement for NIH grants as well.
+Data Mannagement and Sharing Plans are therefore increasingly required by funding agencies as a part of grant applications, and have been a requirement for NSF grant applications for some time now. One of the key features of the NIH's new Data Management and Sharing Policy is that a Data Management and Sharing Plan will now be a requirement for NIH grants as well.
 
 You can access the template for the NIH Data Management and Sharing Plan on this [NIH website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan). This page also contains a number of useful sample plans that use the NIH DMS Plan template. If you are familiar with NSF data management plans, you'll notice that the NIH  DMS Plan template is quite similar (though not identical).
 
@@ -191,7 +191,7 @@ If you would like to see what dataset publications look like on CU Scholar, here
 
 Finally, a word on size limits and costs. If your data submission is less than 500 GB, we can publish it on CU Scholar at no additional cost to you.
 
-For data submissions greater than 500 GB, there is a one-time data deposit fee of $450/terabyte. For purposes of assessing costs, file sizes are always rounded up (for example, a deposit of 750 GB will be assessed a deposit fee of $450; a deposit of 1.4 TB will be assessed a deposit fee of $900; and so on). 
+For data submissions greater than 500 GB, there is a one-time data deposit fee of $450/terabyte. When assessing costs, file sizes are always rounded up (for example, a deposit of 750 GB will be assessed a deposit fee of $450; a deposit of 1.4 TB will be assessed a deposit fee of $900; and so on). 
 
 ## Privacy, Ethics, and CU Scholar
 
