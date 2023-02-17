@@ -2,7 +2,7 @@
 
 # An Overview of Data Management Planning
 
-A Data Management and Sharing Plan (DMS Plan) is a short document (~2 pages) that describes your plans for collecting, organizing, storing, and eventually disseminating the data that underlies your published research. Writing a DMS Plan gives you the opportunity to develop a framework for organizing and managing your research data over the lifecycle of the project, and think through various data-related issues that might arise; committing to a plan in writing will help you to approach data management in a deliberate and intentional way, rather than figuring things out as you go in an ad-hoc fashion. Ultimately, this increases the likelihood that research data products will be reusable and reproducible. 
+A Data Management and Sharing Plan (DMS Plan) is a short document (~2 pages) that describes your plans for collecting, organizing, storing, and eventually disseminating the data that underlies your published research. Writing a DMS Plan gives you the opportunity to develop a framework for organizing and managing your research data over the lifecycle of the project, and think through various data-related issues that might arise; committing to a plan in writing will help you to approach data management in a deliberate and intentional way, rather than figuring things out as you go in an ad-hoc fashion. Ultimately, this increases the likelihood that research results will be reproducible, and that the data products which underpin these results will be reusable by the scholarly community. 
 
 Data Mannagement and Sharing Plans are therefore increasingly required by funding agencies as a part of grant applications, and have been a requirement for NSF grant applications for some time now. One of the key features of the NIH's new Data Management and Sharing Policy is that a Data Management and Sharing Plan will now be a requirement for NIH grants as well.
 
@@ -28,7 +28,7 @@ Then, select University of Colorado, Boulder; once you click **Go**, you will be
 knitr::include_graphics("images/pic2.png")
 ```
 
-This will bring you to your personal *DMPTool* Dashboard. Here, you can begin a new plan; resume working on a saved plan (in-progress plans will show up under the **My Dashboard** sign if they exist); or view sample plans created by other CU researchers for a variety of funding agencies (under the banner that reads **University of Colorado Boulder Plans**)
+This will bring you to your personal *DMPTool* Dashboard (Figure 3.3). Here, you can begin a new plan; resume working on a saved plan (in-progress plans will show up under the **My Dashboard** sign if they exist); or view sample plans created by other CU researchers for a variety of funding agencies (under the banner that reads **University of Colorado Boulder Plans**)
 
 ```{r, echo=FALSE, fig.cap="Your personal DMPTool dashboard"}
 knitr::include_graphics("images/pic3.png")
@@ -102,7 +102,7 @@ knitr::include_graphics("images/pic12.png")
 
 # Sample DMS Plans
 
-As noted above, *DMPTool* provides a catalog of Data Management and Sharing Plans written and used by researchers as part of their previous grant applications. If you would like to see more such examples, this [searchable archive of previously used plans](https://example-dms-plans.github.io/examples/) is worth exploring. Another useful resource is this [annotated example of a DMS plan](https://osf.io/euaty), which has been released by the [NIH DMSP Guidance Working Group](https://osf.io/uadxr/). As we noted above, the NIH [DMS Plan website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan) also contains a number of sample plans for a variety of different data types that are frequently used in NIH projects. 
+As noted above, *DMPTool* provides a catalog of Data Management and Sharing Plans written and used by researchers as part of their previous grant applications. If you would like to see more such examples, this [searchable archive of previously used plans](https://example-dms-plans.github.io/examples/) is worth exploring. Another useful resource is this [annotated example of a DMS Plan](https://osf.io/euaty), which has been released by the [NIH DMSP Guidance Working Group](https://osf.io/uadxr/). As we noted above, the NIH [DMS Plan website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan) also contains a number of sample plans for a variety of different data types that are frequently used in NIH projects. 
 
 Perusing these sample plans will give you a sense for the level of detail that reviewers expect in these documents. 
 

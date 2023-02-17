@@ -7,9 +7,9 @@ site: bookdown::bookdown_site
 
 # Introduction
 
-The National Institutes of Health (NIH) has recently introduced a new [Data Management and Sharing Policy (DMSP)](https://sharing.nih.gov/data-management-and-sharing-policy), which is now in effect. This brief primer provides an overview of some useful resources that will help you to implement some of this policy's main requirements for projects that receive NIH funding.  
+The National Institutes of Health (NIH) has recently introduced a new [Data Management and Sharing Policy (DMSP)](https://sharing.nih.gov/data-management-and-sharing-policy), which is now in effect. This brief primer provides an overview of some useful resources that will help you to implement some of this Policy's main requirements for projects that receive NIH funding.  
 
-The NIH policy has three main requirements, which correspond to different stages of a typical project lifecycle:
+The NIH DMSP has three main requirements, which correspond to different stages of a typical project lifecycle:
 
 1. When first applying for an NIH grant, you must [submit a Data Management and Sharing Plan](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing) (DMS Plan). 
 2. If the grant application is successful, you must implement the data management protocol specified in the Data Management and Sharing Plan, and follow [data management best practices](https://sharing.nih.gov/data-management-and-sharing-policy/data-management) as you pursue your research.
