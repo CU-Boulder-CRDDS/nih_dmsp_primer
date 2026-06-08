@@ -1,270 +1,187 @@
-# (PART) Data Management Planning {-}
+# Data Management and Sharing (DMS) Plans
 
-# An Overview of Data Management Planning
+One of the main requirements of the NIH Data Management and Sharing Policy is that grant applicants complete a Data Management and Sharing (DMS) Plan, which now consists of an embedded online form that you will be prompted to complete in the course of submitting your proposal.
 
-A Data Management and Sharing Plan (DMS Plan) is a short document (~2 pages) that describes your plans for collecting, organizing, storing, and eventually disseminating the data that underlies your published research. Writing a DMS Plan gives you the opportunity to develop a framework for organizing and managing your research data over the lifecycle of the project, and think through various data-related issues that might arise; committing to a plan in writing will help you to approach data management in a deliberate and intentional way, rather than figuring things out as you go in an ad-hoc fashion. Ultimately, this increases the likelihood that research results will be reproducible, and that the data products which underpin these results will be reusable by the scholarly community. 
+You can familiarize yourself with the new plan template on the NIH's [dedicated DMS Plan page](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan), where you can download and review the template. For convenience, this template is also available for download [here](https://grants.nih.gov/sites/default/files/dms-blank-format-page-2026.docx). We also reproduce the questions from the template below. Note that many of the questions simply require a "yes/no" response.
 
-Data Mannagement and Sharing Plans are therefore increasingly required by funding agencies as a part of grant applications, and have been a requirement for NSF grant applications for some time now. One of the key features of the NIH's new Data Management and Sharing Policy is that a Data Management and Sharing Plan will now be a requirement for NIH grants as well.
+1.  Will there be [maximum appropriate sharing of scientific data](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#maximum-appropriate-sharing-of-scientific-data) underlying peer-reviewed publications and other findings resulting from the work supported by this award (including preprints, refereed papers reported at conferences, and other findings)? ***Y/N***
 
-You can access the template for the NIH Data Management and Sharing Plan on this [NIH website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan). This page also contains a number of useful sample plans that use the NIH DMS Plan template. If you are familiar with NSF data management plans, you'll notice that the NIH  DMS Plan template is quite similar (though not identical).
+2.  Will the scientific data underlying peer-reviewed publications be shared by the time of publication, or for other findings, by the end of the period of performance, which includes no-cost extensions? ***Y/N***
 
-If you are planning to apply for an NIH grant, the easiest way to generate an appropriate data management and sharing plan that conforms to NIH requirements is to use an application called [*DMPTool*](https://dmptool.org/), which is a digital platform that provides structured assistance to researchers that would like to craft data management plans. *DMPTool* provides data management plan templates for a variety of major funders, including the NIH. It also allows you to view sample plans that have been completed in the past. A particularly helpful feature of *DMPTool* is that it allows for easy collaboration among project teams, including among project teams that are dispersed across multiple institutions.
+3.  Will shared scientific data be made available for at least as long as required by applicable data repository policies and/or journal policies? ***Y/N***
 
-Below, Section 3 walks you through the main steps involved in creating a Data Management and Sharing Plan for your NIH grant applications using *DMPTool*.
+4.  If you answered “no” to elements 1, 2, or 3, or if you anticipate that sharing will be limited in some other way, please describe these limitations and the ethical, legal, or technical factors for them. Your response should specify a particular reason(s) for limiting sharing. ***[300 words maximum]***
 
-# Using *DMPTool*
+5.  If scientific data derived from human research participants will be shared, will privacy, rights, and confidentiality of participants be protected as outlined in [NOT-OD-22-213](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-22-213.html)? ***Y/N***
 
-## Log into your *DMPTool* account and view your personal dashboard
+6.  In the table below, please list [100 words maximum]
 
-Go to the [*DMPTool*](https://dmptool.org) website, and select the option to sign in via the institutional portal:
+    a.  Key types of scientific data anticipated to be generated during the project, including the species and modality, if known (e.g., “human genomic data,” “rat functional magnetic resonance imaging data”). NIH recognizes that not all data types expected to be generated in the study will meet the definition of scientific data or can be anticipated in advance. If a data type does not appear on the list, it does not imply that that data type will not be shared if it is generated in the study.
 
-```{r, echo=FALSE, fig.cap="Sign into DMPTool via your institution"}
-knitr::include_graphics("images/pic1.png")
-```
+    b.  The repository or an example of a repository where the scientific data may be managed and shared, if the scientific data is known at time of application. NIH expects the use of established repositories for preserving and sharing scientific data when they are available.
 
-Then, select University of Colorado, Boulder; once you click **Go**, you will be able to sign in via your Identikey:
+    | Expected Data Type | Established Repository or Example |
+    |--------------------|----------------------------------:|
+    | 6a                 |                                6b |
 
-```{r, echo=FALSE, fig.cap="Look up CU Boulder and click 'Go' to sign in via IdentiKey"}
-knitr::include_graphics("images/pic2.png")
-```
+7.  For studies subject to the NIH Genomic Data Sharing Policy (GDS) (e.g., using NIH funds to generate large-scale human genomic data):
 
-This will bring you to your personal *DMPTool* Dashboard (Figure 3.3). Here, you can begin a new plan; resume working on a saved plan (in-progress plans will show up under the **My Dashboard** sign if they exist); or view sample plans created by other CU researchers for a variety of funding agencies (under the banner that reads **University of Colorado Boulder Plans**)
+    a.  Will you share all large-scale human genomic and associated data in a NIH-designated repository according to the accelerated timelines expected in the GDS Policy? ***Yes/No/Not Applicable***
 
-```{r, echo=FALSE, fig.cap="Your personal DMPTool dashboard"}
-knitr::include_graphics("images/pic3.png")
-```
+    b.  Do you anticipate that when sharing you will be able to meet the expectations of the Institutional Certification in the GDS Policy? ***Yes/No/Not Applicable; if "no", address in element 4***
 
-## Create a new plan
+It is important to emphasize that when NIH refers to "sharing scientific data", the expectation is that data will be published in a dedicated third-party data repository; it is generally not acceptable to self-host data, or indicate that it will be shared upon request. For additional general information about data repositories, please see [Section 4](#repositories1). For information about repository services at CU Boulder, including CU Scholar (the campus's institutional repository, which can be used to publish your data in accordance with the NIH Data Management and Sharing Policy), please see [Section 5](#repositories2) below.
 
-To initiate a new plan, click the blue **Create plan** button (see Figure 3.3 above), which will bring you to an interface like the one below (Figure 3.4). Here, you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMS Plan template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan". 
+# Data Management Best Practices and Tools
 
-```{r, echo=FALSE, fig.cap="Initiate a new plan"}
-knitr::include_graphics("images/pic4.png")
-```
-
-## Customize, Write, and Compile the Data Management and Sharing Plan
-
-At this point, we are on a page that looks something like the one below (Figure 3.5). Note the six tabs running along the top of the page. By systematically working through the various sections associated with these tabs, you will be able to generate a Data Management and Sharing Plan based on the NIH template. Make sure to save your work on the sections as you go. Also, note the **Select Guidance**  section on the right. Make sure that both the **DMPTool** and **University of Colorado Boulder (CU Boulder)** buttons are selected. This ensures that as you work through the material within the **Write Plan** tab, you will be able to see relevant guidance on how to complete various sections of your DMS Plan. In the first tab, **Project Details**, you can enter your project abstract and some additional information.
-
-
-```{r, fig.cap="Environment to assemble plan", echo=FALSE}
-knitr::include_graphics("images/pic5.png")
-```
-
-The second tab, **Collaborators**, will look like the image below (Figure 3.6); here, you can invite collaborators to participate in creating the DMS Plan, and regulate their access to the in-progress document.
-
-```{r, echo=FALSE, fig.cap="Add collaborators"}
-knitr::include_graphics("images/pic6.png")
-```
-
-Once you've invited collaborators (if relevant) and set their permissions, you can click the **Write Plan** tab, which will bring you to a page that looks like the one below (Figure 3.7). Each section on this page corresponds to a required section of the NIH Data Management and Sharing Plan. Click the **+** to expand a section and work on it, or click **expand all** to open all the sections at once. 
-
-```{r, echo=FALSE, fig.cap="Write plan sections"}
-knitr::include_graphics("images/pic7.png")
-```
-
-To take an example, let’s expand the **Data Preservation, Access, and Associated Timelines** section, which will look like the image below (Figure 3.8), once it is open. We can write (or paste) relevant text for this section into the text box, and click **Save** (note that it’s necessary to click **Save** after you complete each plan section within the **Write Plan** tab). To the right of the text box, you can view relevant information on the chosen section or advice on how to complete it. To view this information, make sure that the **Guidance** button is selected (when selected, it will appear white). Once the **Guidance** button is selected, you'll see buttons corresponding to different sources. To see instructions from the funding agency (here, NIH) or *DMPTool* itself, click on those buttons. To see CU Boulder-specific information on completing a given section (i.e. information on CU-specific resources or tools that might be relevant to a given section), click the **CU Boulder** button. 
-
-
-```{r, echo=FALSE, fig.cap="Completing an individual section within the 'Write Plan' tab"}
-knitr::include_graphics("images/pic8.png")
-```
-
-## Download and Export the DMS Plan
-
-After completing the various sections of the Data Management and Sharing Plan within the **Write Plan** tab, and adding relevant information within the **Research outputs** tab, you can download your plan (which is compiled from the information that has been entered in the various sections of the **Write Plan** tab), within the **Download** tab. When open, the **Download** section will look something like the image below (Figure 3.9). Note that it is essential to ensure that the document you submit to the NIH adheres to all formatting requirements. The download specifications used below are consistent with these requirements, but please see [official NIH guidance on formatting](https://grants.nih.gov/grants/how-to-apply-application-guide/format-and-write/format-attachments.htm#font) for additional information. This [document](https://research.columbia.edu/sites/default/files/content/EVPR/NIH%20Formatting%20Requirements%20and%20DMPTool.pdf) from Columbia University also provides additional useful information on formatting. After customizing the plan according to the required formatting specifications, you can  click the **Download Plan** button, at which point the *DMPTool* software will generate a complete and formatted data management and sharing plan in the desired file format (in this case, PDF), based on the text that was entered in the various sections we discussed above. 
-
-```{r, echo=FALSE, fig.cap="Download plan"}
-knitr::include_graphics("images/pic_formatting.png")
-```
-
-## Have someone review the draft DMS Plan 
-
-After generating a draft Data Management and Sharing Plan using *DMPTool*, it is often useful to have someone review and offer feedback on your draft. In particular, we encourage CU researchers to reach out to us at the [Center for Research Data and Digital Scholarship](https://www.colorado.edu/crdds/); we are able to review DMS Plans, and offer advice on possible revisions before you submit the plan to the NIH. To set up an appointment with a data management specialist at CRDDS, please send an email to [crdds@colorado.edu](mailto:crdds@colorado.edu). 
-
-## Revise the DMS Plan
-
-When you are ready to implement revisions and finalize your plan, you can access your in-progress plan (and its various sections) from your personal *DMPTool* dashboard (see Figure 3.10 below). Simply click on the relevant project title, and *DMPTool* will take you back into that project's plan, where you can implement necessary revisions to the relevant sections, and then download the revised DMS plan in the same way we downloaded the initial draft:
-
-```{r, echo=FALSE, fig.cap="Access plan from dashboard to make revisions"}
-knitr::include_graphics("images/pic11.png")
-```
-
-Also, note that it's not necessary to complete the plan document in one session; so long as you save the *DMPTool* sections as you go, it's always possible to return to an in-progress or incomplete Data Management and Sharing Plan from your dashboard, and continue working where you left off. 
-
-## Submit the DMS Plan
-
-While the specific submission process for the plan will depend on the NIH's instructions for your particular grant, it's worth noting that *DMPTool* provides useful options for publishing and registering your plan within the **Finalize** tab of your project (including the option to generate a plan ID and add the plan to ORCID), as seen in Figure 3.11 below:
-
-```{r, echo=FALSE, fig.cap="Options to publish and/or register your plan  "}
-knitr::include_graphics("images/pic12.png")
-```
-
-# Sample DMS Plans
-
-As noted above, *DMPTool* provides a catalog of Data Management and Sharing Plans written and used by researchers as part of their previous grant applications. If you would like to see more such examples, this [searchable archive of previously used plans](https://example-dms-plans.github.io/examples/) is worth exploring. Another useful resource is this [annotated example of a DMS Plan](https://osf.io/euaty), which has been released by the [NIH DMSP Guidance Working Group](https://osf.io/uadxr/). As we noted above, the NIH [DMS Plan website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan) also contains a number of sample plans for a variety of different data types that are frequently used in NIH projects. 
-
-Perusing these sample plans will give you a sense for the level of detail that reviewers expect in these documents. 
-
-# (PART) Implementation {-}
-
-# Data Management for In-Progress Projects
-
-Once you are awarded an NIH grant, the Data Management and Sharing Policy requires you to implement the data management protocol specified in your DMS Plan, and follow data management best practices while undertaking your research. To that end, Subsections 5.1 to 5.4 discuss some useful resources:
+Once you are awarded an NIH grant and your project gets underway, it is important to implement data management best practices, which will ultimately help (among other things) you to fulfill data deposit requirements at the end of the project in an efficient manner. To that end, the subsections below discuss some useful data management resources and strategies to consider.
 
 ## Data Storage
 
-In your data management and sharing plan, you should expect to discuss where and how research data will be stored while your project is ongoing (data storage during an active project is distinct from data archiving for long-term preservation and reuse, which you should also discuss in your Plan; for more on fulfilling this requirement, see Sections 6 and 7 below). Once the project is actually underway, you will need to store data using the active storage plan presented in your DMS Plan. 
+In your data management and sharing plan, you should expect to discuss where and how research data will be stored while your project is ongoing (data storage during an active project is distinct from data archiving for long-term preservation and reuse, which you should also discuss in your Plan; for more on fulfilling this requirement, see Sections 6 and 7 below). Once the project is actually underway, you will need to store data using the active storage plan presented in your DMS Plan.
 
-OIT has put together a [helpful guide to data storage options at CU Boulder](https://oit.colorado.edu/services/file-transfer-storage-infrastructure):  
+OIT has put together a [helpful guide to data storage options at CU Boulder](https://oit.colorado.edu/services/file-transfer-storage-infrastructure):
 
-* In most cases, especially if your research data is expected to be less than one Terabyte, OneDrive is probably the best storage option for research data. OneDrive has been approved by OIT for the storage of highly confidential data, and is considered a secure storage environment. 
-* If you are working in the realm of "big data", and need more than one terabyte of storage space, the CU Boulder [PetaLibrary](https://www.colorado.edu/rc/resources/petalibrary) is an option that is worth exploring. While you can store data >1 terabyte on the PetaLibrary, note that unlike OneDrive, storing your data in the PetaLibrary involves an out-of-pocket cost ($45/terabyte/year), and is not approved for the storage of sensitive or highly confidential data.
-* If you need a secure way to transfer large amounts of data between project team members, CU Boulder's free [Large File Transfer Service](https://oit.colorado.edu/services/file-transfer-storage-infrastructure/large-file-transfer) is a useful resource. 
+-   In most cases, especially if your research data is expected to be less than one Terabyte, OneDrive is probably the best storage option for research data. OneDrive has been approved by OIT for the storage of highly confidential data, and is considered a secure storage environment.
+-   If you are working in the realm of "big data", and need more than one terabyte of storage space, the CU Boulder [PetaLibrary](https://www.colorado.edu/rc/resources/petalibrary) is an option that is worth exploring. While you can store data \>1 terabyte on the PetaLibrary, note that unlike OneDrive, storing your data in the PetaLibrary involves an out-of-pocket cost (\$45/terabyte/year), and is not approved for the storage of sensitive or highly confidential data.
+-   If you need a secure way to transfer large amounts of data between project team members, CU Boulder's free [Large File Transfer Service](https://oit.colorado.edu/services/file-transfer-storage-infrastructure/large-file-transfer) is a useful resource.
 
-A general principle of data storage and security to keep in mind is the ["3-2-1" rule](https://libguides.princeton.edu/c.php?g=102546&p=665865): Keep *3* copies of important data (1 original record, and 2 copies), on *2* different storage environments, with at least *1* copy held physically off-site or in a secure cloud storage environment. 
+A general principle of data storage and security to keep in mind is the ["3-2-1" rule](https://libguides.princeton.edu/c.php?g=102546&p=665865): Keep *3* copies of important data (1 original record, and 2 copies), on *2* different storage environments, with at least *1* copy held physically off-site or in a secure cloud storage environment.
 
 ## Data Management Best Practices
 
 The NIH has assembled an extremely useful guide to [data management best practices for active projects](https://sharing.nih.gov/data-management-and-sharing-policy/data-management). Two topics mentioned in that guide are worth emphasizing:
 
-* **Documentation and Metadata**: Documenting your data workflows as you carry out your research will make it easier to prepare your data for long-term archiving at the end of your project. For guidance on best practices for data documentation and metadata, this document (from MIT) is a good place to start: [https://libraries.mit.edu/data-management/store/documentation](https://libraries.mit.edu/data-management/store/documentation/). Cornell University Libraries' brief [primer on standards-based metadata](https://data.research.cornell.edu/content/writing-metadata) is also helpful. When you deposit your data in a repository for long term preservation, it is usually a minimal requirement that you at least provide ["readme" style metadata](https://data.research.cornell.edu/content/readme). We recommend that you review the sort of information that is typically presented in a data readme file, and document your ongoing work with a view towards creating such a metadata file at the conclusion of your project. 
-* **File management**: Data files and directories can quickly proliferate over the course of a project, and it’s important to have a framework in place that regulates how files and directories are named, organized, and versioned. For a useful primer on file naming and organization conventions, see this [resource from the University of Wisconsin](https://researchdata.wisc.edu/file-naming-and-versioning/).  
+-   **Documentation and Metadata**: Documenting your data workflows as you carry out your research will make it easier to prepare your data for long-term archiving at the end of your project. For guidance on best practices for data documentation and metadata, this document (from MIT) is a good place to start: [https://libraries.mit.edu/data-management/store/documentation](https://libraries.mit.edu/data-management/store/documentation/). Cornell University Libraries' brief [primer on standards-based metadata](https://data.research.cornell.edu/content/writing-metadata) is also helpful. When you deposit your data in a repository for long term preservation, it is usually a minimal requirement that you at least provide ["readme" style metadata](https://data.research.cornell.edu/content/readme). We recommend that you review the sort of information that is typically presented in a data readme file, and document your ongoing work with a view towards creating such a metadata file at the conclusion of your project.
+-   **File management**: Data files and directories can quickly proliferate over the course of a project, and it’s important to have a framework in place that regulates how files and directories are named, organized, and versioned. For a useful primer on file naming and organization conventions, see this [resource from the University of Wisconsin](https://researchdata.wisc.edu/file-naming-and-versioning/).
 
 ## Data Management Tools
 
 There are a variety of tools that can help you to implement data management best practices. There are too many to catalog here, but a few are worth highlighting:
 
-* **The Unix Shell/Command Line**: When creating, naming, deleting, or moving around files and directories, it is easier to keep track of everything if you implement these tasks programmatically (rather than pointing and clicking in a graphical user interface). The Unix Shell is a basic scripting tool that allows you to automate these aspects of file management relatively easily; this makes file management quicker, less error-prone, and easier to document. For an excellent tutorial on using the Unix shell for file management, see this lesson from the [Carpentries](https://carpentries.org) program: [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/).
-* **Git and GitHub**: Version control is an important part of data management that refers to your approach to tracking changes made to files containing data and code over time. Git is a version control system widely used in the open-source software and academic research communities. GitHub is a platform for hosting projects and source code that is based on Git; it’s a great way to implement versioning in a collaborative project. GitHub is a particularly useful way to store and keep track of changes in the code and scripts you use to process your data. Ultimately, these scripts can also be submitted alongside your datasets for long-term preservation in data repositories. To get started with Git and GitHub, this lesson is a good place to start: [https://swcarpentry.github.io/git-novice/](https://swcarpentry.github.io/git-novice/).
-* **Open Science Framework**: The [Open Science Framework (OSF)](https://osf.io) is designed to be a one-stop shop for all of your data and project management needs. It integrates various data storage, analysis, versioning, and management applications into one unified platform. 
+-   **The Unix Shell/Command Line**: When creating, naming, deleting, or moving around files and directories, it is easier to keep track of everything if you implement these tasks programmatically (rather than pointing and clicking in a graphical user interface). The Unix Shell is a basic scripting tool that allows you to automate these aspects of file management relatively easily; this makes file management quicker, less error-prone, and easier to document. For an excellent tutorial on using the Unix shell for file management, see this lesson from the [Carpentries](https://carpentries.org) program: <https://swcarpentry.github.io/shell-novice/>.
+-   **Git and GitHub**: Version control is an important part of data management that refers to your approach to tracking changes made to files containing data and code over time. Git is a version control system widely used in the open-source software and academic research communities. GitHub is a platform for hosting projects and source code that is based on Git; it’s a great way to implement versioning in a collaborative project. GitHub is a particularly useful way to store and keep track of changes in the code and scripts you use to process your data. Ultimately, these scripts can also be submitted alongside your datasets for long-term preservation in data repositories. To get started with Git and GitHub, this lesson is a good place to start: <https://swcarpentry.github.io/git-novice/>.
+-   **Open Science Framework**: The [Open Science Framework (OSF)](https://osf.io) is designed to be a one-stop shop for all of your data and project management needs. It integrates various data storage, analysis, versioning, and management applications into one unified platform.
 
 ## CRDDS Services
 
-CRDDS staff are available to consult on data management issues related to ongoing projects. We host consult hours on Tuesdays (12:00-1:00) and Thursdays (1:00-2:00), which you can sign up for on the [CRDDS Events Page](https://www.colorado.edu/crdds/events). You can also request a consultation outside of those hours by emailing [crdds@colorado.edu](mailto:crdds@colorado.edu). CRDDS regularly provides workshops and trainings related to data management (including workshops on some of the tools and best practices mentioned above), which you can also find on the CRDDS Events page. 
+CRDDS staff are available to consult on data management issues related to ongoing projects. We host consult hours on Tuesdays (12:00-1:00) and Thursdays (1:00-2:00), which you can sign up for on the [CRDDS Events Page](https://www.colorado.edu/crdds/events). You can also request a consultation outside of those hours by emailing [crdds\@colorado.edu](mailto:crdds@colorado.edu). CRDDS regularly provides workshops and trainings related to data management (including workshops on some of the tools and best practices mentioned above), which you can also find on the CRDDS Events page.
 
-# (PART) Data Sharing {-}
+# Repositories for Data Sharing {#repositories1}
 
-# An overview of data sharing
+The second explicit requirement associated with the new NIH Data Management and Sharing Policy (in addition to the Data Management and Sharing Plan requirement we discussed above) is that at the conclusion of your project, you must share your project data by publishing it in a publicly facing data repository in accordance with your DMS Plan commitments.
 
-The second explicit requirement associated with the new NIH Data Management and Sharing Policy (in addition to the Data Management and Sharing Plan requirement we discussed above) is that at the conclusion of your project, you share your project data by publishing it in a publicly facing data repository. A data repository is essentially a digital archive that is designed to preserve research data beyond the life of a given project, so that other researchers can easily reuse and build on previous research and data collection efforts. More generally, data repositories have the goal of making research data [FAIR](https://www.nature.com/articles/sdata201618): **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable. Note that hosting your data on a personal website is not considered an acceptable alternative to publishing data in a public-facing repository that meets FAIR standards. 
+A data repository is essentially a digital archive that is designed to preserve research data beyond the life of a given project, so that other researchers can easily reuse and build on previous research and data collection efforts. More generally, data repositories have the goal of making research data [FAIR](https://www.nature.com/articles/sdata201618): **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable. It is worth reiterating that hosting your data on a personal website is not considered an acceptable alternative to sharing data via a FAIR-aligned third party data repository.
 
-There are many different kinds of data repositories within the broader repository ecosystem:
+## The Landscape of Data Repositories
 
-* **General purpose repositories** accept data deposits from researchers from various disciplines, regardless of their institutional affiliation. An example of a general purpose repository is the [Harvard Dataverse](https://dataverse.harvard.edu). 
-* **Disciplinary repositories** accept deposits from researchers from designated discipline(s) or research communities, regardless of their institutional affiliation. An example of a disciplinary or community-based repository is the [Inter-university Consortium for Social and Political Research (ICPSR)](https://www.icpsr.umich.edu/web/pages/), which hosts data from social science researchers. 
-* **Institutional repositories** accept data deposits from researchers who are members of a specific institution, regardless of their discipline or area of research. An example of an institutional repository is [CU Scholar](https://scholar.colorado.edu), which is CU-Boulder's own institutional repository. 
+There are three general types of data repositories within the broader repository ecosystem:
 
-This [guide to selecting a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) from the NIH is a useful starting point for thinking about possible repository destinations for your research data. The NIH has also provided a [catalog of repositories](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html) that might give you some more specific ideas about repository options.
+-   **General purpose repositories** accept data deposits from researchers from various disciplines, regardless of their institutional affiliation. An example of a general purpose repository is the [Harvard Dataverse](https://dataverse.harvard.edu).
+-   **Disciplinary repositories** accept deposits from researchers from designated discipline(s) or research communities, regardless of their institutional affiliation. An example of a disciplinary or community-based repository is the [Inter-university Consortium for Social and Political Research (ICPSR)](https://www.icpsr.umich.edu/web/pages/), which hosts data from social science researchers.
+-   **Institutional repositories** accept data deposits from researchers who are members of a specific institution, regardless of their discipline or area of research. An example of an institutional repository is [CU Scholar](https://scholar.colorado.edu), which is CU-Boulder's own institutional repository.
 
-# Repository Services @ CU
+Within these broad categorical distinctions, there are additional policy and resource-based differences across repositories. For example, there is considerable variation in the size of the data deposits that repositories are able to accept. To take another example, some repositories only host open access data, while others give researchers the option to deposit restricted-use data that potential users must apply to access (which is a useful way to meet NIH data sharing requirements in the context of sensitive human subjects data that would not be appropriate for public release on an open access basis).
 
-In order to meet the NIH data sharing requirement, you will typically have the option of depositing your data in CU Boulder's Institutional Repository, [CU Scholar](https://scholar.colorado.edu) (for some grants, NIH may explicitly circumscribe your repository options, in which case you should follow their guidance). 
+For certain grants, NIH may mandate the use of certain repositories, but in general, researchers are given the flexibility to use the repository of their choice. Given the diversity of the data repository landscape, it can be challenging to decide on an appropriate repository (or repositories) to deposit data in order to fulfill NIH data sharing requirements. This [guide to selecting a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) from the NIH is a useful starting point for thinking about possible repository destinations for your research data. The NIH has also provided a [catalog of repositories](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html) that might give you some more specific ideas about repository options. If you would like more tailored guidance about potential repository destinations appropriate to your project needs, [we also encourage you to contact CRDDS for a consultation][Conclusion and Further Reading].
 
-## Basic CU Scholar Policies
+## CU Scholar and Repository Services at CU Boulder
 
-If you are thinking of depositing your data in CU Scholar, please review the [Data Set Policy](https://scholar.colorado.edu/terms) (scroll all the way down). Two things, in particular, are worth emphasizing: 
+[CU Scholar](https://scholar.colorado.edu) is CU Boulder's institutional repository, and can be used to publish data in accordance with the NIH DMSP. CU Scholar is a popular venue for CU-affiliated researchers looking to publish their research data, since it is supported by CRDDS staff and resources who coordinate the publication process. In addition, CU Scholar has been certified by [CoreTrustSeal](https://www.coretrustseal.org), which is seen by grant reviewers and members of the scholarly communications community as a credible signal of a repository's overall quality. If you are interested in publishing your NIH project data on CU Scholar, the subsections below offer a brief overview of repository practices and policies.
 
-* All of the contributors to a dataset or project do not necessarily have to be affiliated with CU-Boulder, but the person who deposits the data must be employed by CU-Boulder (the depositor must authenticate with CU-Boulder credentials). 
-* Once the data is published, it is immediately open-access and accessible to anyone who wishes to view or download the data. As a result, datasets with personally identifying information are not appropriate for CU Scholar. 
+### Basic CU Scholar Policies
 
-## Submitting data to CU Scholar
+If you are thinking of depositing your data in CU Scholar, please review the [Data Set Policy](https://scholar.colorado.edu/terms) (scroll all the way down). Two things, in particular, are worth emphasizing:
+
+-   All of the contributors to a dataset or project do not necessarily have to be affiliated with CU-Boulder, but the person who deposits the data must be employed by CU-Boulder (the depositor must authenticate with CU-Boulder credentials).
+-   Once the data is published, it is immediately open-access and accessible to anyone who wishes to view or download the data. As a result, datasets with personally identifying information are not appropriate for CU Scholar.
+
+### Submitting data to CU Scholar
 
 If you decide that you would like to meet NIH data sharing requirements using CU Scholar, please consult the [submission guidelines](https://scholar.colorado.edu/about), for an overview of the submission process.
 
 The basic steps of the CU Scholar data submission workflow are as follows:
 
-1. Click the blue "Share Your Work" button on the [main CU Scholar page](https://scholar.colorado.edu).
-2. When prompted to select the type of work, select the "Data Set" option.
-3. You will be prompted to fill out several fields, and upload your data. Please also upload a Readme or documentation file that provides relevant metadata. You can use the suggested [Readme template for CU Scholar](https://drive.google.com/file/d/1h_iBgq3HY0yXyJXDwWpi80GMC2Z4fO9U/view) for this purpose. 
-4. Once you have completed the submission, we will review it for adherence to [FAIR data principles](https://www.nature.com/articles/sdata201618). We may recommend changes to your submission based on this review.
-5. Once the submission has been finalized, we will register a digital object identifer (DOI) for the data, which can be used to uniquely identify the dataset. You can share this DOI with relevant stakeholders, which provides proof of compliance with the NIH data publication requirement. 
+1.  Click the blue "Share Your Work" button on the [main CU Scholar page](https://scholar.colorado.edu).
+2.  When prompted to select the type of work, select the "Data Set" option.
+3.  You will be prompted to fill out several fields, and upload your data. Please also upload a Readme or documentation file that provides relevant metadata. You can use the suggested [Readme template for CU Scholar](https://drive.google.com/file/d/1h_iBgq3HY0yXyJXDwWpi80GMC2Z4fO9U/view) for this purpose.
+4.  Once you have completed the submission, we will review it for adherence to [FAIR data principles](https://www.nature.com/articles/sdata201618). We may recommend changes to your submission based on this review.
+5.  Once the submission has been finalized, we will register a digital object identifer (DOI) for the data, which can be used to uniquely identify the dataset. You can share this DOI link with relevant stakeholders, which provides proof of compliance with the NIH data publication requirement.
 
-## Sample CU Scholar datasets
+### Sample CU Scholar datasets
 
 If you would like to see what dataset publications look like on CU Scholar, here are a few recent examples:
 
-* [https://doi.org/10.25810/mzt8-w960](https://doi.org/10.25810/mzt8-w960)
-* [https://doi.org/10.25810/y1f2-j085]( https://doi.org/10.25810/y1f2-j085)
+-   <https://doi.org/10.25810/mzt8-w960>
+-   <https://doi.org/10.25810/y1f2-j085>
 
-## CU Scholar size constraints and costs
+### CU Scholar size constraints and costs
 
 Finally, a word on size limits and costs. If your data submission is less than 500 GB, we can publish it on CU Scholar at no additional cost to you.
 
-For data submissions greater than 500 GB, there is a one-time data deposit fee of $450/terabyte. When assessing costs, file sizes are always rounded up (for example, a deposit of 750 GB will be assessed a deposit fee of $450; a deposit of 1.4 TB will be assessed a deposit fee of $900; and so on). 
+For data submissions greater than 500 GB, there is a one-time data deposit fee of \$450/terabyte. When assessing costs, file sizes are always rounded up (for example, a deposit of 750 GB will be assessed a deposit fee of \$450; a deposit of 1.4 TB will be assessed a deposit fee of \$900; and so on).
 
-## Privacy, Ethics, and CU Scholar
+### Privacy, Ethics, and CU Scholar
 
-As we noted above, all data on CU Scholar is open data; if you decide to use CU Scholar to meet data publication requirements, please make sure that the data is appropriately de-identified or anonymized to protect human subjects. We can offer some advice on de-identification, but the responsibility for ensuring that the data is appropriate for public dissemination, and that human subjects are protected, ultimately rests with the depositor. For practical guidance on data anonymization, please see this resource from the [UK Anonymization Network](https://ukanon.net/framework/). 
+As we noted above, all data on CU Scholar is open data; if you decide to use CU Scholar to meet data publication requirements, please make sure that the data is appropriately de-identified or anonymized to protect human subjects. We can offer some advice on de-identification, but the responsibility for ensuring that the data is appropriate for public dissemination, and that human subjects are protected, ultimately rests with the depositor. For practical guidance on data anonymization, please see this resource from the [UK Anonymization Network](https://ukanon.net/framework/).
 
-An alternative to anonymization is to deposit your data with a repository that has an infrastructure for restricted-use data. If a repository has a restricted-use option, you will be able to deposit your data just as you would deposit data in a normal open-access repository, but the repository will only make the data available to researchers under controlled conditions that guarantee the safety of human subjects. For an example of how restricted-use data policies generally work, see this [overview of restricted use data policies at ICPSR](https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/). 
+As noted above, an alternative to anonymization is to deposit your data with a repository that has an infrastructure for restricted-use data. If a repository has a restricted-use option, you will be able to deposit your data just as you would deposit data in a normal open-access repository, but the repository will only make the data available to researchers under controlled conditions that guarantee the safety of human subjects. For an example of how restricted-use data policies generally work, see this [overview of restricted use data policies at ICPSR](https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/).
 
-# (PART) Conclusion {-}
+# Conclusion and Further Reading
 
-# Concluding Thoughts 
+The goal of this primer was to provide a concise overview of the NIH's Data Management and Sharing Policy, and general guidance on resources that will help you to fulfill Policy requirements. However, it is important to emphasize that every project is unique, and if you have specific questions about how to navigate the DMSP in the context of your own work, please contact CRDDS for a consultation. CRDDS staff are available at regularly scheduled consult hours during the academic ear (see the [CRDDS Events Page](https://www.colorado.edu/crdds/events) for more information), and by appointment (please email [crdds\@colorado.edu](mailto:crdds@colorado.edu)).
 
-The goal of this primer was to provide a concise overview of practical resources that can help you to implement the NIH's new Data Management and Sharing Policy. If you would like to discuss your needs in greater detail, please don't hesitate to reach out to CRDDS. 
+In addition to consultations, CRDDS regularly provides workshops and educational offerings related to data management (including workshops on some of the tools and best practices mentioned above), which you can also find on the CRDDS Events page.
 
 ## References
 
-The following resources and references were mentioned earlier; they are reprinted below. 
+The following resources and references were mentioned earlier; they are reprinted below.
 
 **Basic Policy Guidelines**
 
-* [NIH's new Data Management and Sharing Policy (DMSP) Overview](https://sharing.nih.gov/data-management-and-sharing-policy)
-  * [NIH Data Management Planning](https://sharing.nih.gov/data-management-and-sharing-policy)
-  * [NIH Data Management Best Practices](https://sharing.nih.gov/data-management-and-sharing-policy/data-management)
-  * [NIH Data Sharing and Archiving Expectations](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data)
-
-**Data Management Planning**
-
-* [*DMPTool*](https://dmptool.org)
-* [Sample DMS Plans](https://example-dms-plans.github.io/examples/)
-* [Annotated NIH DMS Plan](https://osf.io/euaty)
+-   [NIH's new Data Management and Sharing Policy (DMSP) Overview](https://sharing.nih.gov/data-management-and-sharing-policy)
+    -   [NIH Data Management Planning](https://sharing.nih.gov/data-management-and-sharing-policy)
+    -   [NIH Data Management Best Practices](https://sharing.nih.gov/data-management-and-sharing-policy/data-management)
+    -   [NIH Data Sharing and Archiving Expectations](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data)
 
 **Data Storage**
 
-* [OIT Guide to data storage at CU Boulder](https://oit.colorado.edu/services/file-transfer-storage-infrastructure)
-  * [CU Boulder PetaLibrary](https://www.colorado.edu/rc/resources/petalibrary)
-  * [Large File Transfer](https://oit.colorado.edu/services/file-transfer-storage-infrastructure/large-file-transfer)
-* [Back-ups and the 3-2-1 Rule](https://libguides.princeton.edu/c.php?g=102546&p=665865)
+-   [OIT Guide to data storage at CU Boulder](https://oit.colorado.edu/services/file-transfer-storage-infrastructure)
+    -   [CU Boulder PetaLibrary](https://www.colorado.edu/rc/resources/petalibrary)
+    -   [Large File Transfer](https://oit.colorado.edu/services/file-transfer-storage-infrastructure/large-file-transfer)
+-   [Back-ups and the 3-2-1 Rule](https://libguides.princeton.edu/c.php?g=102546&p=665865)
 
 **Data Management Best Practices**
 
-* Documentation and Metadata
-  * [Basic metadata guidance](https://libraries.mit.edu/data-management/store/documentation/)
-  * [Standards based metadata](https://data.research.cornell.edu/content/writing-metadata)
-  * [Readme-style metadata](https://data.research.cornell.edu/content/readme)
-  * [CU Scholar Readme Template](https://drive.google.com/file/d/1h_iBgq3HY0yXyJXDwWpi80GMC2Z4fO9U/view)
-* [File Management Best Practices](https://researchdata.wisc.edu/file-naming-and-versioning/)
+-   Documentation and Metadata
+    -   [Basic metadata guidance](https://libraries.mit.edu/data-management/store/documentation/)
+    -   [Standards based metadata](https://data.research.cornell.edu/content/writing-metadata)
+    -   [Readme-style metadata](https://data.research.cornell.edu/content/readme)
+    -   [CU Scholar Readme Template](https://drive.google.com/file/d/1h_iBgq3HY0yXyJXDwWpi80GMC2Z4fO9U/view)
+-   [File Management Best Practices](https://researchdata.wisc.edu/file-naming-and-versioning/)
 
-**Data Management Tools**
+**Data Management Tools and Resources**
 
-* [Command line tutorial](https://swcarpentry.github.io/shell-novice/)
-* [Git and GitHub tutorial](https://swcarpentry.github.io/git-novice/)
-* [Open Science Framework](https://osf.io)
-
+-   [Command line tutorial](https://swcarpentry.github.io/shell-novice/)
+-   [Git and GitHub tutorial](https://swcarpentry.github.io/git-novice/)
+-   [Open Science Framework](https://osf.io)
 
 **Data Repositories and Publishing**
 
-* [FAIR Data Principles](https://www.nature.com/articles/sdata201618)
-* [Catalog of repositories provided by NIH](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html)
-* [CU Scholar](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html)
-  * [CU Scholar submission guidelines](https://scholar.colorado.edu/about)
-  * [CU Scholar data set policy](https://scholar.colorado.edu/terms) (scroll to bottom)
-  * [Sample CU Scholar Dataset 1](https://doi.org/10.25810/mzt8-w960)
-  * [Sample CU Scholar Dataset 2](https://doi.org/10.25810/y1f2-j085)
-* Data Publishing and Privacy for Human Subjects
-  * [UK Anonymization Network](https://ukanon.net/framework/)
-  * [ICPSR Restricted Use Data Policy](https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/)
+-   [FAIR Data Principles](https://www.nature.com/articles/sdata201618)
+-   [Catalog of repositories provided by NIH](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html)
+-   [CU Scholar](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html)
+    -   [CU Scholar submission guidelines](https://scholar.colorado.edu/about)
+    -   [CU Scholar data set policy](https://scholar.colorado.edu/terms) (scroll to bottom)
+    -   [Sample CU Scholar Dataset 1](https://doi.org/10.25810/mzt8-w960)
+    -   [Sample CU Scholar Dataset 2](https://doi.org/10.25810/y1f2-j085)
+-   Data Publishing and Privacy for Human Subjects
+    -   [UK Anonymization Network](https://ukanon.net/framework/)
+    -   [ICPSR Restricted Use Data Policy](https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/)
 
 ## Additional resources and further reading
 
-The resources below were not previously mentioned in the primer, but are worth consulting if you are looking for additional guidance or context. 
+The resources below were not previously mentioned in the primer, but are worth consulting if you are looking for additional guidance or context.
 
-* This [Data Management and Sharing Plan Checklist](https://osf.io/awypt) based on the  NIH Data Management and Sharing Plan template, is a useful reference that you can use while writing your DMS Plan. 
-* As you navigate the NIH DMS Plan requirements, this [glossary of relevant terms](https://osf.io/p68s2) can come in handy. 
-* This [Guide to Social Science Data Preparation and Archiving](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) is written for a social science audience, but presents data management fundamentals that are of broader interest, and which are relevant to the NIH Data Management and Sharing Policy requirements. 
-
-
-
+-   As you navigate the NIH DMS Plan requirements, this [glossary of relevant terms](https://osf.io/p68s2) can come in handy.
+-   This [Guide to Social Science Data Preparation and Archiving](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) is written for a social science audience, but presents data management fundamentals that are of broader interest, and which are relevant to the NIH Data Management and Sharing Policy requirements.
