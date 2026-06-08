@@ -4,7 +4,6 @@ data-management-best-practices-and-tools
 data-storage
 data-management-best-practices
 data-management-tools
-crdds-services
 repositories1
 the-landscape-of-data-repositories
 cu-scholar-and-repository-services-at-cu-boulder
