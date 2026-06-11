@@ -1,6 +1,8 @@
 # Data Management and Sharing (DMS) Plans
 
-One of the main requirements of the NIH Data Management and Sharing Policy is that grant applicants complete a Data Management and Sharing (DMS) Plan. You can familiarize yourself with the new plan template on the NIH's [dedicated DMS Plan page](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan), where you can download and review the template. For convenience, this template is also available for download [here](https://grants.nih.gov/sites/default/files/dms-blank-format-page-2026.docx). We also reproduce the questions from the template below. Note that many of the questions simply require a "yes/no" response.
+One of the main requirements of the NIH Data Management and Sharing Policy is that grant applicants complete a Data Management and Sharing (DMS) Plan. You can familiarize yourself with the new plan template on the NIH's [dedicated DMS Plan page](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan), where you can download and review the template. For convenience, this template is also available for download [here](https://grants.nih.gov/sites/default/files/dms-blank-format-page-2026.docx).
+
+We also reproduce the questions from the template below. Note that many of the questions simply require a "yes/no" response.
 
 1.  Will there be [maximum appropriate sharing of scientific data](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#maximum-appropriate-sharing-of-scientific-data) underlying peer-reviewed publications and other findings resulting from the work supported by this award (including preprints, refereed papers reported at conferences, and other findings)? ***Y/N***
 
@@ -27,6 +29,10 @@ One of the main requirements of the NIH Data Management and Sharing Policy is th
     a.  Will you share all large-scale human genomic and associated data in a NIH-designated repository according to the accelerated timelines expected in the GDS Policy? ***Yes/No/Not Applicable***
 
     b.  Do you anticipate that when sharing you will be able to meet the expectations of the Institutional Certification in the GDS Policy? ***Yes/No/Not Applicable; if "no", address in element 4***
+
+It is important to emphasize that when NIH refers to "sharing scientific data" in its DMS Plan template and policy documents, the expectation is that data will be published in a dedicated third-party data repository; it is generally not acceptable to self-host data, or indicate that it will be shared upon request. For additional general information about data repositories, and CU Scholar (our campus's institutional repository), please see [Section 4](#repositories1) below.
+
+## Using *DMPTool* to complete your NIH DMS Plan
 
 You can also access the NIH DMS Plan template, and complete your Plan on [DMPTool](dmptool.org), which is a digital platform that provides structured assistance to researchers that would like to craft data management plans. *DMPTool* provides data management plan templates for a variety of major funders, including NIH. A particularly helpful feature of *DMPTool* is that it allows for easy collaboration among project teams, including among project teams that are dispersed across multiple institutions.
 
@@ -56,9 +62,7 @@ At this point, we are on a page that looks something like the one below:
 knitr::include_graphics("images/pic5b.png")
 ```
 
-You can find the actual plan template by clicking on the blue "Write Plan" tab, but you can also add relevant project details and information about collaborators by clicking on the tabs that correspond to those topics. Once you have filled out the sections in the Plan template, you can download a PDF copy of the Plan (which can be submitted as part of your grant application) within the "Download" tab.
-
-Before moving on, it is important to emphasize that when NIH refers to "sharing scientific data" in its DMS Plan template and policy documents, the expectation is that data will be published in a dedicated third-party data repository; it is generally not acceptable to self-host data, or indicate that it will be shared upon request. For additional general information about data repositories, and CU Scholar (our campus's institutional repository), please see [Section 4][Repositories for Data Sharing] below.
+You can find the actual NIH DMS Plan template by clicking on the blue "Write Plan" tab, but you can also add relevant project details and information about collaborators by clicking on the corresponding tabs. Once you have filled out the sections in the Plan template, you can download a PDF copy of the Plan (which can be submitted as part of your grant application) within the blue "Download" tab.
 
 # Data Management Best Practices and Tools
 
@@ -107,7 +111,7 @@ There are three general types of data repositories within the broader repository
 
 Within these broad categorical distinctions, there are additional policy and resource-based differences across repositories. For example, there is considerable variation in the size of the data deposits that repositories are able to accept. To take another example, some repositories only host open access data, while others give researchers the option to deposit restricted-use data that potential users must apply to access (which is a useful way to meet NIH data sharing requirements in the context of sensitive human subjects data that would not be appropriate for public release on an open access basis).
 
-For certain grants, NIH may mandate the use of certain repositories, but in general, researchers are given the flexibility to use the repository of their choice. Given the diversity of the data repository landscape, it can be challenging to decide on an appropriate repository (or repositories) to deposit data in order to fulfill NIH data sharing requirements. This [guide to selecting a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) from the NIH is a useful starting point for thinking about possible repository destinations for your research data. The NIH has also provided a [catalog of repositories](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html) that might give you some more specific ideas about repository options. If you would like more tailored guidance about potential repository destinations appropriate to your project needs, [we also encourage you to contact CRDDS for a consultation][Conclusion and Further Reading].
+For certain grants, NIH may mandate the use of certain repositories, but in general, researchers are given the flexibility to use the repository of their choice. Given the diversity of the data repository landscape, it can be challenging to decide on an appropriate repository (or repositories) to deposit data in order to fulfill NIH data sharing requirements. This [guide to selecting a data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) from the NIH is a useful starting point for thinking about possible repository destinations for your research data. The NIH has also provided a [catalog of repositories](https://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html) that might give you some more specific ideas about repository options. If you would like more tailored guidance about potential repository destinations appropriate to your project needs, [we also encourage you to contact CRDDS for a consultation](#conclusion-and-further-reading).
 
 ## CU Scholar and Repository Services at CU Boulder
 
@@ -151,7 +155,7 @@ As we noted above, all data on CU Scholar is open data; if you decide to use CU 
 
 As noted above, an alternative to anonymization is to deposit your data with a repository that has an infrastructure the supports the deposit of restricted-use data. If a repository has a restricted-use option, you will be able to deposit your data just as you would deposit data in a normal open-access repository, but the repository will only make the data available to researchers under controlled conditions that guarantee the safety of human subjects. For an example of how restricted-use data policies generally work, see this [overview of restricted use data policies at ICPSR](https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/).
 
-# Conclusion and Further Reading
+# Conclusion and Further Reading {#conclusion-and-further-reading}
 
 The goal of this primer was to provide a concise overview of the NIH's Data Management and Sharing Policy, and offer general guidance on resources that will help you to fulfill Policy requirements. However, it is important to emphasize that every project is unique, and if you have specific questions about how to navigate the DMSP in the context of your own work, we encourage you to contact CRDDS for a consultation. CRDDS staff are available at regularly scheduled consult hours during the academic year (see the [CRDDS Events Page](https://www.colorado.edu/crdds/events) for more information), and by appointment (please email [crdds\@colorado.edu](mailto:crdds@colorado.edu)).
 
