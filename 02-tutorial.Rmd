@@ -1,8 +1,6 @@
 # Data Management and Sharing (DMS) Plans
 
-One of the main requirements of the NIH Data Management and Sharing Policy is that grant applicants complete a Data Management and Sharing (DMS) Plan, which now consists of an embedded online form that you will be prompted to complete in the course of submitting your proposal.
-
-You can familiarize yourself with the new plan template on the NIH's [dedicated DMS Plan page](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan), where you can download and review the template. For convenience, this template is also available for download [here](https://grants.nih.gov/sites/default/files/dms-blank-format-page-2026.docx). We also reproduce the questions from the template below. Note that many of the questions simply require a "yes/no" response.
+One of the main requirements of the NIH Data Management and Sharing Policy is that grant applicants complete a Data Management and Sharing (DMS) Plan. You can familiarize yourself with the new plan template on the NIH's [dedicated DMS Plan page](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan), where you can download and review the template. For convenience, this template is also available for download [here](https://grants.nih.gov/sites/default/files/dms-blank-format-page-2026.docx). We also reproduce the questions from the template below. Note that many of the questions simply require a "yes/no" response.
 
 1.  Will there be [maximum appropriate sharing of scientific data](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#maximum-appropriate-sharing-of-scientific-data) underlying peer-reviewed publications and other findings resulting from the work supported by this award (including preprints, refereed papers reported at conferences, and other findings)? ***Y/N***
 
@@ -30,7 +28,37 @@ You can familiarize yourself with the new plan template on the NIH's [dedicated 
 
     b.  Do you anticipate that when sharing you will be able to meet the expectations of the Institutional Certification in the GDS Policy? ***Yes/No/Not Applicable; if "no", address in element 4***
 
-It is important to emphasize that when NIH refers to "sharing scientific data", the expectation is that data will be published in a dedicated third-party data repository; it is generally not acceptable to self-host data, or indicate that it will be shared upon request. For additional general information about data repositories, and CU Scholar (our campus's institutional repository), please see [Section 4][Repositories for Data Sharing] below.
+You can also access the NIH DMS Plan template, and complete your Plan on [DMPTool](dmptool.org), which is a digital platform that provides structured assistance to researchers that would like to craft data management plans. *DMPTool* provides data management plan templates for a variety of major funders, including NIH. A particularly helpful feature of *DMPTool* is that it allows for easy collaboration among project teams, including among project teams that are dispersed across multiple institutions.
+
+To get started with *DMPTool*, you can sign in using your CU credentials/Identikey:
+
+```{r, echo=FALSE, fig.cap="Sign into DMPTool via your institution"}
+knitr::include_graphics("images/pic1.png")
+```
+
+Once you've signed in, you will arrive at a page displaying your *DMPTool* dashboard. To start a new plan, go ahead and click the blue "Create Plan" button:
+
+```{r, echo=FALSE, fig.cap="Your personal DMPTool dashboard"}
+knitr::include_graphics("images/pic3.png")
+```
+
+Note that once you start working on a plan, you can save in-progress plans and return to them at your convenience; in-progress plans will show up on this dashboard.
+
+After you have clicked the "Create Plan" button, you will arrive at an interface like the one below, where you can provide relevant details about your project, such as its name, the funding organization, and the plan template that you would like to use. In this example, we've named our project "Demonstration", and have selected "National Institutes of Health" as the funding organization. Because there is only one NIH DMS Plan template, we do not need to explicitly select a template (as we would for a funding agency with multiple templates, such as the NSF); selecting "National Institutes of Health" as the funding organization will automatically load the NIH template once you select "Create plan":
+
+```{r, echo=FALSE, fig.cap="Initiate a new plan"}
+knitr::include_graphics("images/pic4.png")
+```
+
+At this point, we are on a page that looks something like the one below:
+
+```{r, fig.cap="Environment to assemble plan", echo=FALSE}
+knitr::include_graphics("images/pic5b.png")
+```
+
+You can find the actual plan template by clicking on the blue "Write Plan" tab, but you can also add relevant project details and information about collaborators by clicking on the tabs that correspond to those topics. Once you have filled out the sections in the Plan template, you can download a PDF copy of the Plan (which can be submitted as part of your grant application) within the "Download" tab.
+
+Before moving on, it is important to emphasize that when NIH refers to "sharing scientific data" in its DMS Plan template and policy documents, the expectation is that data will be published in a dedicated third-party data repository; it is generally not acceptable to self-host data, or indicate that it will be shared upon request. For additional general information about data repositories, and CU Scholar (our campus's institutional repository), please see [Section 4][Repositories for Data Sharing] below.
 
 # Data Management Best Practices and Tools
 
