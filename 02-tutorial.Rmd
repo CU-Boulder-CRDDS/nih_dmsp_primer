@@ -167,10 +167,10 @@ The following resources and references were mentioned earlier; they are reprinte
 
 **Basic Policy Guidelines**
 
--   [NIH's new Data Management and Sharing Policy (DMSP) Overview](https://sharing.nih.gov/data-management-and-sharing-policy)
-    -   [NIH Data Management Planning](https://sharing.nih.gov/data-management-and-sharing-policy)
+-   [NIH's new Data Management and Sharing Policy (DMSP) Overview](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/policy-overview)
+    -   [NIH Data Management Planning](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan)
     -   [NIH Data Management Best Practices](https://sharing.nih.gov/data-management-and-sharing-policy/data-management)
-    -   [NIH Data Sharing and Archiving Expectations](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data)
+    -   [NIH Data Sharing and Archiving Expectations](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/data-sharing-approaches)
 
 **Data Storage**
 
